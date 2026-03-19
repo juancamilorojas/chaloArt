@@ -1,0 +1,32 @@
+[
+  {
+    "id": "escrito-001",
+    "category": "anecdota",
+    "title": { "es": "Crónicas del Puerto", "en": "Port Chronicles" },
+    "excerpt": {
+      "es": "Un relato sobre los antiguos muelles y las historias que el mar nunca devolvió. Entre redes rotas y el olor a salitre, se esconden secretos de hombres que ya no navegan.",
+      "en": "A tale about the old docks and the stories the sea never returned. Between broken nets and the smell of saltpeter, secrets of men who no longer sail are hidden."
+    },
+    "body": {
+      "es": "El puerto amanecía con una niebla espesa que cubría los mástiles de los barcos abandonados. Los viejos pescadores contaban que, en noches de luna llena, podían escuchar las voces de los marineros que jamás regresaron. Era una melodía triste, un canto que se mezclaba con el romper de las olas contra el malecón de piedra.\n\nCarlos, un hombre de manos curtidas por el sol y la sal, era el último de su estirpe. Cada mañana, antes de que despuntara el alba, caminaba hacia el faro viejo. No iba a trabajar; iba a recordar. En su mente, los barcos aún salían cargados de sueños, y el horizonte prometía tierras que nunca alcanzó.\n\nUna mañana de marzo, encontró una botella entre las rocas. Dentro, una carta amarillenta escrita con letra temblorosa: 'A quien encuentre esto: el mar no es el enemigo; la soledad sí lo es.' Carlos guardó la carta en su bolsillo y nunca volvió a caminar solo hacia el faro.",
+      "en": "The port dawned with a thick fog that covered the masts of abandoned ships. The old fishermen told that, on full moon nights, they could hear the voices of sailors who never returned. It was a sad melody, a song that mixed with the breaking of waves against the stone seawall.\n\nCarlos, a man with hands weathered by sun and salt, was the last of his lineage. Every morning, before dawn broke, he walked toward the old lighthouse. He didn't go to work; he went to remember. In his mind, the ships still departed loaded with dreams, and the horizon promised lands he never reached.\n\nOne March morning, he found a bottle among the rocks. Inside, a yellowed letter written in trembling handwriting: 'To whoever finds this: the sea is not the enemy; loneliness is.' Carlos kept the letter in his pocket and never walked alone to the lighthouse again."
+    },
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+    "date": "2024-03-15"
+  },
+  {
+    "id": "escrito-002",
+    "category": "cuento",
+    "title": { "es": "El Susurro del Viento", "en": "The Whisper of the Wind" },
+    "excerpt": {
+      "es": "Una fábula mística sobre la conexión entre la naturaleza y el espíritu humano. El viento no sopla, nos habla; solo hace falta saber escuchar en el silencio de la tarde.",
+      "en": "A mystical fable about the connection between nature and the human spirit. The wind doesn't blow, it speaks to us; you just need to know how to listen in the silence of the afternoon."
+    },
+    "body": {
+      "es": "Había un pueblo pequeño, tan pequeño que no aparecía en ningún mapa. Sus habitantes vivían en armonía con la tierra, y decían que el viento les susurraba secretos. No cualquier viento: solo el que venía del este, justo cuando el sol se escondía detrás de las montañas.\n\nLa anciana del pueblo, doña Remedios, era la única que entendía cada palabra del viento. Decía que le contaba sobre lluvias futuras, sobre cosechas abundantes, y a veces, sobre visitantes que llegarían de tierras lejanas.\n\nUn atardecer de otoño, el viento cambió. Ya no susurraba, gritaba. Doña Remedios salió de su casa y miró al cielo. 'Viene alguien,' dijo con voz grave. 'Alguien que cambiará todo.' Al día siguiente, una joven apareció en el camino, cargando un libro que nadie podía leer.",
+      "en": "There was a small town, so small it didn't appear on any map. Its inhabitants lived in harmony with the land, and they said the wind whispered secrets to them. Not just any wind: only the one that came from the east, just when the sun hid behind the mountains.\n\nThe village elder, Doña Remedios, was the only one who understood every word of the wind. She said it told her about future rains, abundant harvests, and sometimes, about visitors who would arrive from distant lands.\n\nOne autumn evening, the wind changed. It no longer whispered, it screamed. Doña Remedios left her house and looked at the sky. 'Someone is coming,' she said in a grave voice. 'Someone who will change everything.' The next day, a young woman appeared on the road, carrying a book that no one could read."
+    },
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+    "date": "2024-01-22"
+  }
+]

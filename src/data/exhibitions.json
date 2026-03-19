@@ -1,0 +1,17 @@
+[
+  {
+    "year": 2023,
+    "title": { "es": "Galería Nacional, Ciudad de México", "en": "National Gallery, Mexico City" },
+    "description": { "es": "Exposición individual — 'Memoria y Materia'", "en": "Solo exhibition — 'Memory and Matter'" }
+  },
+  {
+    "year": 2021,
+    "title": { "es": "Retrospectiva, Madrid", "en": "Retrospective, Madrid" },
+    "description": { "es": "Museo Nacional Centro de Arte Reina Sofía", "en": "Reina Sofía National Art Center Museum" }
+  },
+  {
+    "year": 2018,
+    "title": { "es": "Materia Viva, Buenos Aires", "en": "Living Matter, Buenos Aires" },
+    "description": { "es": "MALBA — Museo de Arte Latinoamericano", "en": "MALBA — Museum of Latin American Art" }
+  }
+]

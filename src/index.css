@@ -1,0 +1,175 @@
+/* ============================================
+   CHALOART — Global Design Tokens & Reset
+   Extracted from Stitch "CHALOART" mockup
+   ============================================ */
+
+/* --- CSS Custom Properties (Design Tokens) --- */
+:root {
+  /* Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F5F5F3;
+  --color-bg-footer: #F5F5F3;
+  --color-text-primary: #121212;
+  --color-text-secondary: #6B6B6B;
+  --color-text-muted: #999999;
+  --color-border: #E0E0E0;
+  --color-border-light: #ECECEC;
+  --color-accent: #121212;
+  --color-accent-hover: #333333;
+  --color-white: #FFFFFF;
+  --color-black: #121212;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Font Sizes */
+  --fs-hero: clamp(3rem, 5vw, 4.5rem);
+  --fs-section-title: clamp(2rem, 3.5vw, 3rem);
+  --fs-card-title: clamp(1.25rem, 2vw, 1.5rem);
+  --fs-body: 0.9375rem;
+  --fs-body-lg: 1rem;
+  --fs-small: 0.8125rem;
+  --fs-nav: 0.75rem;
+  --fs-label: 0.6875rem;
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  /* Spacing */
+  --space-unit: 8px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  --space-section: clamp(48px, 6vw, 80px);
+
+  /* Layout */
+  --max-width: 1280px;
+  --header-height: 64px;
+  --border-radius: 4px;
+  --container-padding: clamp(24px, 4vw, 64px);
+
+  /* Letter Spacing */
+  --ls-nav: 0.2em;
+  --ls-label: 0.15em;
+  --ls-wide: 0.08em;
+
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+}
+
+/* --- Global Reset --- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-regular);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* --- Utility Classes --- */
+.serif {
+  font-family: var(--font-serif);
+}
+
+.serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: var(--ls-nav);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* --- Scrollbar Styling --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
+}
+
+/* --- Selection --- */
+::selection {
+  background: var(--color-text-primary);
+  color: var(--color-white);
+}

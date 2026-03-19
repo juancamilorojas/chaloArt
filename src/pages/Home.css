@@ -1,0 +1,122 @@
+/* ============================================
+   Home — Split-Screen Hero
+   ============================================ */
+
+.home {
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: stretch;
+  background: var(--color-bg-primary);
+}
+
+.home__inner {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - var(--header-height));
+}
+
+/* Left — Text Column */
+.home__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-4xl) var(--container-padding);
+  padding-right: var(--space-3xl);
+}
+
+.home__subtitle {
+  display: block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-regular);
+  line-height: 1.1;
+  color: var(--color-text-primary);
+}
+
+.home__title {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-regular);
+  line-height: 1.1;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xl);
+}
+
+.home__description {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  max-width: 380px;
+  margin-bottom: var(--space-2xl);
+}
+
+.home__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-sans);
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-nav);
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: gap var(--transition-base);
+}
+
+.home__cta:hover {
+  gap: var(--space-md);
+}
+
+.home__cta-arrow {
+  font-size: 1.25rem;
+  transition: transform var(--transition-base);
+}
+
+.home__cta:hover .home__cta-arrow {
+  transform: translateX(4px);
+}
+
+/* Right — Image Column */
+.home__image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.home__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .home__inner {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .home__text {
+    padding: var(--space-3xl) var(--container-padding);
+    order: 2;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home__description {
+    max-width: 100%;
+  }
+
+  .home__image-wrapper {
+    order: 1;
+    height: 50vh;
+  }
+}

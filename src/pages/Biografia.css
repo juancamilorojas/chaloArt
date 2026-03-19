@@ -1,0 +1,186 @@
+/* ============================================
+   Biografía — Portrait & CV Accordion
+   ============================================ */
+
+.bio {
+  min-height: calc(100vh - var(--header-height));
+  background: var(--color-bg-primary);
+}
+
+.bio__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: calc(100vh - var(--header-height));
+}
+
+/* Left — Image Column */
+.bio__image-wrapper {
+  position: relative;
+  background: var(--color-bg-secondary);
+}
+
+.bio__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+/* Right — Content Column */
+.bio__content {
+  padding: var(--space-4xl) var(--container-padding);
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-nav);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.bio__title {
+  font-family: var(--font-sans); /* Inter for this page specifically per Stitch */
+  font-size: var(--fs-section-title);
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xl);
+  line-height: 1.1;
+}
+
+.bio__text {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* Accordion */
+.bio__accordion {
+  border-top: 1px solid var(--color-border-light);
+  margin-bottom: var(--space-2xl);
+}
+
+.accordion__item {
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.accordion__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-nav);
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+}
+
+.accordion__icon {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  transition: transform var(--transition-base);
+}
+
+.accordion__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-base), padding var(--transition-base);
+  opacity: 0;
+}
+
+.accordion__item.open .accordion__body {
+  max-height: 800px;
+  padding-bottom: var(--space-lg);
+  opacity: 1;
+}
+
+/* Accordion List */
+.accordion__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.accordion__list-item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: var(--space-md);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  line-height: 1.6;
+}
+
+.accordion__list-year {
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-primary);
+}
+
+.accordion__list-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-secondary);
+}
+
+.accordion__list-text strong {
+  font-weight: var(--fw-medium);
+  color: var(--color-text-primary);
+}
+
+.accordion__placeholder {
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Download Button */
+.bio__download-btn {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 14px 24px;
+  border-radius: var(--border-radius);
+  font-family: var(--font-sans);
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-nav);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background var(--transition-fast);
+}
+
+.bio__download-btn:hover {
+  background: var(--color-accent-hover);
+}
+
+.bio__download-btn .material-icons {
+  font-size: 1.1rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 960px) {
+  .bio__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .bio__image-wrapper {
+    height: 60vh;
+  }
+}

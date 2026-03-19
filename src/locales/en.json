@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "inicio": "HOME",
+    "obra": "WORKS",
+    "escritos": "WRITINGS",
+    "biografia": "BIOGRAPHY",
+    "contacto": "CONTACT",
+    "menu": "MENU"
+  },
+  "home": {
+    "subtitle": "Hernando Rojas Rentería",
+    "title": "\"CHALO\"",
+    "description": "Exploring the intersection between memory, painting, and graphics since 1969. An intimate look at over four decades of creation with a presence in biennials across Europe and Latin America.",
+    "cta": "VIEW RETROSPECTIVE"
+  },
+  "obra": {
+    "title": "Original Paintings",
+    "inquire": "INQUIRE",
+    "status": {
+      "disponible": "Available",
+      "vendido": "Sold"
+    }
+  },
+  "escritos": {
+    "title": "Anecdotes & Stories",
+    "all": "ALL",
+    "anecdotas": "ANECDOTES",
+    "cuentos": "STORIES",
+    "readMore": "READ MORE"
+  },
+  "biografia": {
+    "label": "TRAJECTORY",
+    "title": "Biography",
+    "bio_p1": "Chalo is an artist whose practice explores the intersection between memory and matter. With more than four decades of career, his work has established itself as a reference in contemporary art, standing out for its capacity for formal synthesis and conceptual depth.",
+    "bio_p2": "His work has been exhibited in the most prestigious galleries in Europe and Latin America, integrating public and private collections of great historical relevance.",
+    "exposiciones": "EXHIBITIONS",
+    "premios": "AWARDS",
+    "colecciones": "COLLECTIONS",
+    "downloadCv": "DOWNLOAD CV"
+  },
+  "contacto": {
+    "intro": "For acquisitions of original works or inquiries about special projects, please complete the following form.",
+    "nombre": "NAME",
+    "nombrePlaceholder": "Your full name",
+    "email": "EMAIL",
+    "emailPlaceholder": "example@email.com",
+    "mensaje": "MESSAGE",
+    "mensajePlaceholder": "Write your message here...",
+    "enviar": "SUBMIT",
+    "sent": "Message sent. Thank you."
+  },
+  "footer": {
+    "copyright": "© 2024 CHALO SPA. ALL RIGHTS RESERVED.",
+    "privacidad": "PRIVACY",
+    "terminos": "TERMS",
+    "location": "MADRID / HAVANA"
+  }
+}

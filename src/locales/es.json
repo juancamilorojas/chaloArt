@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "inicio": "INICIO",
+    "obra": "OBRA",
+    "escritos": "ESCRITOS",
+    "biografia": "BIOGRAFÍA",
+    "contacto": "CONTACTO",
+    "menu": "MENÚ"
+  },
+  "home": {
+    "subtitle": "Hernando Rojas Rentería",
+    "title": "\"CHALO\"",
+    "description": "Explorando la intersección entre la memoria, la pintura y la gráfica desde 1969. Una mirada íntima a más de cuatro décadas de creación con presencia en bienales de Europa y América Latina.",
+    "cta": "VER RETROSPECTIVA"
+  },
+  "obra": {
+    "title": "Pinturas Originales",
+    "inquire": "CONSULTAR",
+    "status": {
+      "disponible": "Disponible",
+      "vendido": "Vendido"
+    }
+  },
+  "escritos": {
+    "title": "Anécdotas y Cuentos",
+    "all": "TODOS",
+    "anecdotas": "ANÉCDOTAS",
+    "cuentos": "CUENTOS",
+    "readMore": "LEER MÁS"
+  },
+  "biografia": {
+    "label": "TRAYECTORIA",
+    "title": "Biografía",
+    "bio_p1": "Chalo es un artista cuya práctica explora la intersección entre la memoria y la materia. Con más de cuatro décadas de trayectoria, su obra se ha consolidado como un referente en el arte contemporáneo, destacando por su capacidad de síntesis formal y profundidad conceptual.",
+    "bio_p2": "Su trabajo ha sido exhibido en las galerías más prestigiosas de Europa y América Latina, integrando colecciones públicas y privadas de gran relevancia histórica.",
+    "exposiciones": "EXPOSICIONES",
+    "premios": "PREMIOS",
+    "colecciones": "COLECCIONES",
+    "downloadCv": "DOWNLOAD CV"
+  },
+  "contacto": {
+    "intro": "Para adquisiciones de obras originales o consultas sobre proyectos especiales, por favor complete el siguiente formulario.",
+    "nombre": "NOMBRE",
+    "nombrePlaceholder": "Su nombre completo",
+    "email": "EMAIL",
+    "emailPlaceholder": "ejemplo@correo.com",
+    "mensaje": "MENSAJE",
+    "mensajePlaceholder": "Escriba su mensaje aquí...",
+    "enviar": "ENVIAR",
+    "sent": "Mensaje enviado. Gracias."
+  },
+  "footer": {
+    "copyright": "© 2024 CHALO SPA. TODOS LOS DERECHOS RESERVADOS.",
+    "privacidad": "PRIVACIDAD",
+    "terminos": "TÉRMINOS",
+    "location": "MADRID / LA HABANA"
+  }
+}
