@@ -17,6 +17,61 @@
   margin-bottom: var(--space-3xl);
 }
 
+/* Category Filter Tabs */
+.obra__filters {
+  display: flex;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+
+.obra__filter-tab {
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-nav);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  background: none;
+  border: none;
+  padding: var(--space-xs) 0;
+  cursor: pointer;
+  position: relative;
+  transition: color var(--transition-base);
+}
+
+.obra__filter-tab::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: var(--color-text-primary);
+  transition: width var(--transition-base);
+}
+
+.obra__filter-tab:hover {
+  color: var(--color-text-primary);
+}
+
+.obra__filter-tab--active {
+  color: var(--color-text-primary);
+}
+
+.obra__filter-tab--active::after {
+  width: 100%;
+}
+
+@media (max-width: 540px) {
+  .obra__filters {
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+  .obra__filter-tab {
+    font-size: 0.65rem;
+  }
+}
+
 /* Masonry Grid (CSS Columns — preserves original proportions) */
 .obra__grid {
   column-count: 3;

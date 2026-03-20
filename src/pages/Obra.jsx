@@ -40,6 +40,13 @@ export default function Obra() {
   const [selectedArtwork, setSelectedArtwork] = useState(null)
   const [isZoomed, setIsZoomed] = useState(false)
   const [mousePos, setMousePos] = useState({ x: '50%', y: '50%' })
+  const [activeCategory, setActiveCategory] = useState(null) // null = "Todo"
+
+  // Derive unique categories from data
+  const categories = useMemo(() => {
+    const cats = [...new Set(artworks.map(a => a.category).filter(Boolean))]
+    return cats
+  }, [])
 
   // Track current column count to reorder items for horizontal reading
   const getColumnCount = () => {
@@ -56,11 +63,14 @@ export default function Obra() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Sort by order field, then reorder for CSS columns left→right
+  // Filter → sort by order → reorder for CSS columns left→right
   const orderedArtworks = useMemo(() => {
-    const sorted = [...artworks].sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
+    const filtered = activeCategory
+      ? artworks.filter(a => a.category === activeCategory)
+      : artworks
+    const sorted = filtered.sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
     return reorderForColumns(sorted, colCount)
-  }, [colCount])
+  }, [colCount, activeCategory])
 
   // Prevent background scrolling when modal is open
   if (typeof document !== 'undefined') {
@@ -81,10 +91,34 @@ export default function Obra() {
     setMousePos({ x: `${x}%`, y: `${y}%` })
   }
 
+  // Page title: category name or generic title
+  const pageTitle = activeCategory
+    ? (t(`obra.categories.${activeCategory}`) || activeCategory)
+    : t('obra.title')
+
   return (
     <section className="obra" id="obra-panel">
       <div className="obra__inner container">
-        <h1 className="obra__title serif-italic">{t('obra.title')}</h1>
+        {/* Category Filter Tabs */}
+        <nav className="obra__filters" aria-label="Filter by category">
+          <button
+            className={`obra__filter-tab ${activeCategory === null ? 'obra__filter-tab--active' : ''}`}
+            onClick={() => setActiveCategory(null)}
+          >
+            {t('obra.all')}
+          </button>
+          {categories.map(cat => (
+            <button
+              key={cat}
+              className={`obra__filter-tab ${activeCategory === cat ? 'obra__filter-tab--active' : ''}`}
+              onClick={() => setActiveCategory(cat)}
+            >
+              {t(`obra.categories.${cat}`) || cat}
+            </button>
+          ))}
+        </nav>
+
+        <h1 className="obra__title serif-italic">{pageTitle}</h1>
 
         <div className="obra__grid">
           {orderedArtworks.map((artwork) => (

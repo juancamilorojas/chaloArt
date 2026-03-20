@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import './Admin.css'
 
-const CATEGORY_OPTIONS = ['pintura original', 'obra en papel', 'mixta']
+const CATEGORY_OPTIONS = ['pintura original', 'fotografía', 'rápido']
 const ASPECT_OPTIONS = ['landscape', 'portrait', 'square']
 const STATUS_OPTIONS = ['disponible', 'vendido']
 

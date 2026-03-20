@@ -14,11 +14,19 @@
     "cta": "VER RETROSPECTIVA"
   },
   "obra": {
-    "title": "Pinturas Originales",
+    "title": "Obra",
+    "all": "Todo",
     "inquire": "CONSULTAR",
     "status": {
       "disponible": "Disponible",
       "vendido": "Vendido"
+    },
+    "categories": {
+      "pintura original": "Pinturas Originales",
+      "fotografía": "Fotografía",
+      "dibujo rápido": "Dibujos Rápidos",
+      "obra en papel": "Obra en Papel",
+      "mixta": "Técnica Mixta"
     }
   },
   "escritos": {

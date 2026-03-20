@@ -14,11 +14,19 @@
     "cta": "VIEW RETROSPECTIVE"
   },
   "obra": {
-    "title": "Original Paintings",
+    "title": "Works",
+    "all": "All",
     "inquire": "INQUIRE",
     "status": {
       "disponible": "Available",
       "vendido": "Sold"
+    },
+    "categories": {
+      "pintura original": "Original Paintings",
+      "fotografía": "Photography",
+      "dibujo rápido": "Quick Sketches",
+      "obra en papel": "Works on Paper",
+      "mixta": "Mixed Media"
     }
   },
   "escritos": {
