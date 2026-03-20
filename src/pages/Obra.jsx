@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react'
 import { useLanguage } from '../context/LanguageContext'
+import { CATEGORY_OPTIONS } from '../data/constants'
 import artworks from '../data/artworks.json'
 import './Obra.css'
 
@@ -41,12 +42,6 @@ export default function Obra() {
   const [isZoomed, setIsZoomed] = useState(false)
   const [mousePos, setMousePos] = useState({ x: '50%', y: '50%' })
   const [activeCategory, setActiveCategory] = useState(null) // null = "Todo"
-
-  // Derive unique categories from data
-  const categories = useMemo(() => {
-    const cats = [...new Set(artworks.map(a => a.category).filter(Boolean))]
-    return cats
-  }, [])
 
   // Track current column count to reorder items for horizontal reading
   const getColumnCount = () => {
@@ -107,7 +102,7 @@ export default function Obra() {
           >
             {t('obra.all')}
           </button>
-          {categories.map(cat => (
+          {CATEGORY_OPTIONS.map(cat => (
             <button
               key={cat}
               className={`obra__filter-tab ${activeCategory === cat ? 'obra__filter-tab--active' : ''}`}

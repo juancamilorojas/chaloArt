@@ -1,9 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
+import { CATEGORY_OPTIONS, ASPECT_OPTIONS, STATUS_OPTIONS } from '../data/constants'
 import './Admin.css'
-
-const CATEGORY_OPTIONS = ['pintura original', 'fotografía', 'rápido']
-const ASPECT_OPTIONS = ['landscape', 'portrait', 'square']
-const STATUS_OPTIONS = ['disponible', 'vendido']
 
 /**
  * Reorder items so CSS columns (top→bottom) display in left→right reading order.
