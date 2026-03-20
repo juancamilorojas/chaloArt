@@ -56,11 +56,11 @@ export default function Obra() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Reorder so CSS columns display artworks left→right
-  const orderedArtworks = useMemo(
-    () => reorderForColumns(artworks, colCount),
-    [colCount]
-  )
+  // Sort by order field, then reorder for CSS columns left→right
+  const orderedArtworks = useMemo(() => {
+    const sorted = [...artworks].sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
+    return reorderForColumns(sorted, colCount)
+  }, [colCount])
 
   // Prevent background scrolling when modal is open
   if (typeof document !== 'undefined') {

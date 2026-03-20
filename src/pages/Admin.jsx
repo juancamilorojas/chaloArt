@@ -57,10 +57,10 @@ export default function Admin() {
       })
   }, [])
 
-  const orderedArtworks = useMemo(
-    () => reorderForColumns(artworks, colCount),
-    [artworks, colCount]
-  )
+  const orderedArtworks = useMemo(() => {
+    const sorted = [...artworks].sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
+    return reorderForColumns(sorted, colCount)
+  }, [artworks, colCount])
 
   // Prevent background scrolling when modal open
   useEffect(() => {
