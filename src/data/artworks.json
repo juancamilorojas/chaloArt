@@ -18,7 +18,8 @@
       "es": "Esta obra dinámica evoca realismo mágico. Planos fracturados e inspirados en el cubismo, de color carmesí y ámbar, marcan un cuerpo recostado en reverie. Cortejos a través de esta geometría caótica es una nube de mariposas vivas—el motivo icónico de Mauricio Babilonia—simbolizando una pasión consumidora, otherworldly que borra la línea entre los sueños y la realidad.",
       "en": "This dynamic acrylic work captures magical realism. Fractured, cubist-inspired planes of crimson and ochre frame a reclining figure lost in reverie. Cutting through this chaotic geometry is a swarm of vibrant yellow butterflies—the iconic motif of Mauricio Babilonia—symbolizing an all-consuming, otherworldly passion that blurs the line between dreams and reality."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 1
   },
   {
     "id": "painting_002",
@@ -39,7 +40,8 @@
       "es": "Este vibrante bodegón contemporáneo celebra la abundancia tropical a través de colores intensos y una luz cálida y envolvente. Exuberantes heliconias e hibiscos dominan el centro de la composición, anclando una rica ofrenda de frutas, pan y alimentos cotidianos. El artista contrasta las formas orgánicas de la naturaleza con fondos geométricos y fragmentados, creando una atmósfera dinámica y ligeramente surrealista que transforma la tradicional naturaleza muerta en una explosión de vitalidad.",
       "en": "This vibrant contemporary still life celebrates tropical abundance through intense colors and warm, enveloping light. Lush heliconias and hibiscus flowers dominate the center of the composition, anchoring a rich offering of fruits, bread, and everyday foods. The artist contrasts the organic forms of nature with geometric, fragmented backgrounds, creating a dynamic and slightly surreal atmosphere that transforms the traditional still life into an explosion of vitality."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 2
   },
   {
     "id": "painting_003",
@@ -60,7 +62,8 @@
       "es": "Esta envolvente composición semi-abstracta sumerge al espectador en una atmósfera onírica dominada por azules profundos y eléctricos. Un bodegón tradicional —destacando una botella de vino, cuencos decorados y una llamativa heliconia roja— se deconstruye mediante planos geométricos superpuestos y pinceladas expresivas. El dramático contraste entre la fría oscuridad del primer plano y la luminosidad cálida que asoma en el horizonte crea un paisaje surrealista, donde los objetos cotidianos parecen flotar entre la realidad y la imaginación.",
       "en": "This immersive semi-abstract composition plunges the viewer into a dreamlike atmosphere dominated by deep, electric blues. A traditional still life—highlighting a wine bottle, decorative bowls, and a striking red heliconia—is deconstructed through overlapping geometric planes and expressive brushstrokes. The dramatic contrast between the cool darkness of the foreground and the warm luminosity peeking from the horizon creates a surreal landscape where everyday objects seem to float between reality and imagination."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 3
   },
   {
     "id": "painting_004",
@@ -81,7 +84,8 @@
       "es": "Esta fascinante obra contemporánea fusiona la tradición clásica del bodegón con la iconografía del arte pop y la era digital. Sobre un plano de vibrantes tonos aguamarina y azul, el artista dispone elementos tradicionales —vasijas, frutas y arreglos florales— que conviven en un paisaje surrealista con símbolos modernos, como logotipos de redes sociales y tipografía de revistas. La inclusión de fragmentos pegados con cinta, junto con el recurrente motivo de las mariposas amarillas, crea un cautivador collage visual que invita a reflexionar sobre cómo la tecnología y la hiperconexión se entrelazan con nuestra intimidad y memoria cultural.",
       "en": "This fascinating contemporary work merges the classical tradition of the still life with the iconography of pop art and the digital age. On a plane of vibrant aquamarine and blue tones, the artist arranges traditional elements—vases, fruits, and floral arrangements—that coexist in a surreal landscape with modern symbols, such as social media logos and magazine typography. The inclusion of fragments taped together, along with the recurring motif of yellow butterflies, creates a captivating visual collage that invites reflection on how technology and hyperconnection intertwine with our intimacy and cultural memory."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 4
   },
   {
     "id": "painting_005",
@@ -102,7 +106,8 @@
       "es": "Esta dinámica composición marca una audaz incursión en la abstracción geométrica y el paisaje surrealista. Dominada por una intensa paleta de azules profundos, verdes esmeralda y acentos en rojo vibrante, la obra evoca la energía cinética de un entorno costero o urbano en constante transformación. Trazos blancos curvos y veloces atraviesan los bloques de color estructurados, sugiriendo el paso del viento o el movimiento del agua. El artista logra un equilibrio magistral entre el caos expresivo y el orden arquitectónico, invitando al espectador a descifrar este espacio visual multidimensional.",
       "en": "This dynamic composition marks a bold foray into geometric abstraction and surreal landscape. Dominated by an intense palette of deep blues, emerald greens, and vibrant red accents, the work evokes the kinetic energy of a constantly transforming coastal or urban environment. Fast, curved white strokes traverse the structured blocks of color, suggesting the passage of wind or the movement of water. The artist achieves a masterful balance between expressive chaos and architectural order, inviting the viewer to decipher this multidimensional visual space."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 5
   },
   {
     "id": "painting_006",
@@ -123,7 +128,8 @@
       "es": "Esta obra sumerge al espectador en un paisaje místico de tonos terracota y rojos intensos, coronado por elementos celestiales. En el centro, una estructura geométrica y multicolor actúa como lienzo para una serie de siluetas negras que evocan petroglifos y motivos precolombinos. El artista entrelaza con maestría su característica abstracción geométrica con la memoria ancestral, creando un puente visual entre el pasado mítico y la expresión contemporánea en una atmósfera cálida y enigmática.",
       "en": "This work immerses the viewer in a mystical landscape of terracotta tones and intense reds, crowned by celestial elements. In the center, a geometric and multicolored structure acts as a canvas for a series of black silhouettes evoking petroglyphs and pre-Columbian motifs. The artist masterfully intertwines his characteristic geometric abstraction with ancestral memory, creating a visual bridge between the mythical past and contemporary expression in a warm and enigmatic atmosphere."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 6
   },
   {
     "id": "painting_007",
@@ -144,7 +150,8 @@
       "es": "Esta cautivadora obra surrealista deconstruye el concepto del hogar, presentándolo como una estructura fragmentada que se alza en un paisaje onírico de tonos cálidos y dorados. El cielo, atravesado por franjas azules, se llena de un inventario visual de objetos cotidianos —prendas de vestir, un avión de papel, muebles y las recurrentes mariposas amarillas— que parecen levitar alrededor de la casa. A través de la superposición de planos geométricos y elementos figurativos, el artista captura la naturaleza efímera de la memoria y cómo los recuerdos cotidianos orbitan alrededor de los espacios que habitamos.",
       "en": "This dynamic acrylic work captures magical realism. Fractured, cubist-inspired planes of crimson and ochre frame a reclining figure lost in reverie. Cutting through this chaotic geometry is a swarm of vibrant yellow butterflies—the iconic motif of Mauricio Babilonia—symbolizing an all-consuming, otherworldly passion that blurs the line between dreams and reality."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 7
   },
   {
     "id": "obra-out-11",
@@ -165,7 +172,8 @@
       "es": "En esta vibrante y enérgica composición, diversas figuras entrelazan la mitología y la celebración en un baile surrealista. El rojo carmesí inunda el plano, enmarcando personajes estilizados —un lagarto antropomórfico, un esqueleto místico y figuras con rostros tribales— que convergen al ritmo del tambor central. La obra es una explosión cromática que rinde homenaje a las raíces folclóricas y la imaginación primigenia.",
       "en": "In this vibrant and energetic composition, diverse figures intertwine mythology and celebration in a surreal dance. Crimson red floods the plane, framing stylized characters—an anthropomorphic lizard, a mystical skeleton, and figures with tribal faces—converging to the rhythm of the central drum. The work is a chromatic explosion that pays homage to folkloric roots and primal imagination."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 8
   },
   {
     "id": "obra-out-12",
@@ -186,7 +194,8 @@
       "es": "Una audaz abstracción que juega con profundidades espaciales y texturas intensas. Tonos fríos de azul cobalto y verde contrastan abruptamente con destellos de amarillo solar y rojo, creando una topografía fragmentada. Las áreas de color parecen flotar y chocar, sugiriendo un paisaje onírico o una memoria dividida capturada en el momento de su reconstrucción.",
       "en": "A bold abstraction that plays with spatial depth and intense textures. Cold tones of cobalt blue and green contrast sharply with flashes of solar yellow and red, creating a fragmented topography. The color areas seem to float and collide, suggesting a dreamlike landscape or a divided memory captured in the moment of its reconstruction."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 9
   },
   {
     "id": "obra-out-13",
@@ -207,7 +216,8 @@
       "es": "Sumergida en una atmósfera crepuscular, esta obra reinventa la naturaleza muerta con un dramatismo contemporáneo. Una exótica Ave del Paraíso irrumpe en un entorno oscuro de matices azules y grises, sus puntas naranjas destellando como fuego en la penumbra. Pinceladas expresivas y líneas difusas borran los contornos de la habitación, otorgando a la composición un aura misteriosa y etérea.",
       "en": "Immersed in a twilight atmosphere, this work reinvents the still life with contemporary drama. An exotic Bird of Paradise bursts into a dark environment of blue and gray hues, its orange tips flashing like fire in the gloom. Expressive brushstrokes and blurred lines erase the contours of the room, giving the composition a mysterious and ethereal aura."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 10
   },
   {
     "id": "obra-out-14",
@@ -228,7 +238,8 @@
       "es": "Un cautivador paisaje abstracto sumergido en un profundo mar de granate. Elementos geométricos desordenados, destellos dorados y sombras abruptas construyen una dimensión que parece desafiar la gravedad. El espectador es invitado a transitar por estas estructuras en ruinas o en formación, sintiendo la tensión latente en la paleta cálida dominante.",
       "en": "A captivating abstract landscape submerged in a deep sea of maroon. Disordered geometric elements, golden flashes, and abrupt shadows construct a dimension that seems to defy gravity. The viewer is invited to traverse these structures either in ruin or in formation, feeling the latent tension in the dominant warm palette."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 11
   },
   {
     "id": "obra-out-15",
@@ -249,7 +260,8 @@
       "es": "Esta composición panorámica evoca el interior de un espacio descompuesto en sus geometrías básicas. Inundado por tonos rojos, naranjas y negros intensos, el lienzo sugiere estantes, luces y pilares distorsionados por un lente surrealista. El uso de la perspectiva forzada y bloques de color audaces captura la esencia de un lugar habitado pero metafísicamente inestable.",
       "en": "This panoramic composition evokes the interior of a space decomposed into its basic geometries. Flooded with intense reds, oranges, and blacks, the canvas suggests shelves, lights, and pillars distorted by a surreal lens. The use of forced perspective and bold color blocks captures the essence of a place inhabited yet metaphysically unstable."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 12
   },
   {
     "id": "obra-out-16",
@@ -270,7 +282,8 @@
       "es": "Un entramado de formas frías y arquitectónicas donde azules petróleos y verdes oceánicos engullen oscuros contornos urbanos. Entremezclados con cálidos acentos de luces interiores e incandescencias naranjas, el lienzo sugiere la vitalidad que resiste en el interior de una megaestructura silenciosa o un aserradero nocturno.",
       "en": "A lattice of cold and architectural forms where petrol blues and oceanic greens engulf dark urban contours. Interspersed with warm accents of interior lights and orange incandescences, the canvas suggests the vitality that resists within a silent megastructure or a nocturnal sawmill."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 13
   },
   {
     "id": "obra-out-17",
@@ -291,7 +304,8 @@
       "es": "A través de volúmenes fracturados y contrastes dramáticos, esta obra esboza una metrópolis que parece emerger del subconsciente. Bloques habitacionales de colores pálidos chocan con la profundidad del azul oscuro y el magenta vibrante, transmitiendo una sensación de melancolía urbana e insomnio metropolitano fragmentado.",
       "en": "Through fractured volumes and dramatic contrasts, this work sketches a metropolis that seems to emerge from the subconscious. Pale-colored housing blocks clash with the depth of dark blue and vibrant magenta, conveying a sense of urban melancholy and fragmented metropolitan insomnia."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 14
   },
   {
     "id": "obra-out-18",
@@ -312,7 +326,8 @@
       "es": "Dominada por blancos barridos y una energía visceral, esta pieza abstracta conduce la mirada a través de gruesas capas de carmín y ocre, hacia una enigmática apertura circular. El balance entre el espacio vacío de la parte superior y la densidad geológica en la parte inferior refleja el instante en que el mundo físico revela un paso hacia otra dimensión.",
       "en": "Dominated by swept whites and a visceral energy, this abstract piece guides the gaze through thick layers of carmine and ochre towards an enigmatic circular opening. The balance between the empty space at the top and the geological density at the bottom reflects the moment when the physical world reveals a passage to another dimension."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 15
   },
   {
     "id": "obra-out-19",
@@ -333,7 +348,8 @@
       "es": "Un tejido visual complejo donde lo orgánico y lo industrial convergen irremediablemente bajo un velo nocturno. Zonas geométricas amarillas y azules destellan en contraste con las profundas sombras violáceas. El artista juega con múltiples horizontes y puntos de fuga borrados, ilustrando las cicatrices modernas impuestas sobre paisajes ancestrales.",
       "en": "A complex visual weave where the organic and the industrial converge hopelessly under a nocturnal veil. Geometric yellow and blue zones flash in contrast with the deep violet shadows. The artist plays with multiple horizons and erased vanishing points, illustrating the modern scars imposed on ancestral landscapes."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 16
   },
   {
     "id": "obra-out-2",
@@ -354,7 +370,8 @@
       "es": "Una composición abstracta que evoca un paisaje urbano o costero deconstruido. Tonos fríos de azul y verde se intersectan con cálidos toques de amarillo y rojo, mientras que cuencos semicirculares y estructuras arquitectónicas se fusionan en un espacio cubista y dinámico.",
       "en": "An abstract composition evoking a deconstructed urban or coastal landscape. Cool tones of blue and green intersect with warm touches of yellow and red, while semi-circular bowls and architectural structures merge into a dynamic cubist space."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 17
   },
   {
     "id": "obra-out-20",
@@ -375,7 +392,8 @@
       "es": "Una abstracción sumamente lírica que insinúa una fisonomía desmoronándose o naciendo de entre amplios brochazos de color. Curvas blancas, azules marinos pesados y rojos pasión se doblan sobre sí mismos como papel en pleno origami cromático. La firma incrustada se convierte ella misma en parte del engranaje visual de esta identidad fragmentada.",
       "en": "A highly lyrical abstraction that hints at a physiognomy crumbling or being born from broad brushstrokes of color. White curves, heavy navy blues, and passion reds fold back on themselves like paper in full chromatic origami. The embedded signature becomes part of the visual machinery of this fragmented identity."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 18
   },
   {
     "id": "obra-out-23",
@@ -396,7 +414,8 @@
       "es": "Una explosión vibrante de formas geométricas y colores puros que desafían la estática del lienzo. Bloques audaces de rojo, naranja y amarillo se intersectan con nítidos blancos y oscuros profundos, creando un dinamismo visual que recuerda al cubismo sintético. La tensión de los trazos sugiere un instante capturado en pleno movimiento.",
       "en": "A vibrant explosion of geometric shapes and pure colors that challenge the static nature of the canvas. Bold blocks of red, orange, and yellow intersect with sharp whites and deep darks, creating a visual dynamism reminiscent of synthetic cubism. The tension of the strokes suggests an instant captured in full movement."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 19
   },
   {
     "id": "obra-out-24",
@@ -417,7 +436,8 @@
       "es": "Un bodegón contemporáneo sumergido en una densa paleta de azules nocturnos y verdes esmeralda. Botellas, copas y objetos cotidianos descansan sobre una mesa, delineados apenas por sutiles pinceladas de luz amarilla y blanca. La atmósfera onírica y melancólica difumina la frontera entre la abstracción y la figuración, invitando a la introspección.",
       "en": "A contemporary still life submerged in a dense palette of nocturnal blues and emerald greens. Bottles, glasses, and everyday objects rest on a table, barely outlined by subtle brushstrokes of yellow and white light. The dreamlike and melancholic atmosphere blurs the boundary between abstraction and figuration, inviting introspection."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 20
   },
   {
     "id": "obra-out-25",
@@ -438,7 +458,8 @@
       "es": "La gracia y fuerza de la naturaleza se encapsulan en este dinámico retrato de un salmón en pleno ascenso. Contrastando radicalmente con un fondo abstracto de azules y turquesas acuáticos, el rojo escarlata del pez capta toda la atención. Las pinceladas gestuales que lo rodean simulan el ímpetu del agua y el esfuerzo vital del animal.",
       "en": "The grace and power of nature are encapsulated in this dynamic portrait of a salmon in full ascent. Contrasting radically with an abstract background of aquatic blues and turquoises, the scarlet red of the fish commands all attention. The gestural brushstrokes surrounding it simulate the momentum of the water and the vital effort of the animal."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 21
   },
   {
     "id": "obra-out-26",
@@ -459,7 +480,8 @@
       "es": "Una obra realista impregnada de nostalgia cálida que rinde tributo a la vida cotidiana. Bañada por una iluminación casi sepia, la cocina revela su historia a través de utensilios gastados: cuchillos colgantes, un viejo rallador, ollas metálicas y un grifo rústico. El impecable manejo de sombras y reflejos metálicos otorga a los objetos una presencia táctil impecable.",
       "en": "A realistic work imbued with warm nostalgia that pays tribute to everyday life. Bathed in almost sepia lighting, the kitchen reveals its history through worn utensils: hanging knives, an old grater, metal pots, and a rustic faucet. The impeccable handling of shadows and metallic reflections gives the objects an impeccable tactile presence."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 22
   },
   {
     "id": "obra-out-27",
@@ -480,7 +502,8 @@
       "es": "Un minucioso dibujo en blanco y negro que captura la esencia silenciosa de la vida rural. El umbral de madera enmarca una oscuridad profunda en la que asoman sutiles detalles de un interior humilde. Afuera, la ropa secándose al viento, una pala y dibujos clavados en la pared cuentan historias de esfuerzo y memoria con una notable precisión técnica.",
       "en": "A meticulously detailed black and white drawing that captures the silent essence of rural life. The wooden threshold frames a deep darkness where subtle details of a humble interior peek through. Outside, clothes drying in the wind, a shovel, and drawings pinned to the wall tell stories of effort and memory with remarkable technical precision."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 23
   },
   {
     "id": "obra-out-28",
@@ -501,7 +524,8 @@
       "es": "Un detallado estudio de claroscuro en grafito que retrata el interior de una rústica habitación de lavado o cocina. La luz natural se filtra por dos pequeñas ventanas cuadradas, iluminando sutilmente la textura de las tablas del suelo, la mesa de trabajo de madera y los objetos cotidianos, como la cerámica y la ropa colgada, creando una atmósfera de quietud atemporal.",
       "en": "A detailed chiaroscuro study in graphite portraying the interior of a rustic washroom or kitchen. Natural light filters through two small square windows, subtly illuminating the texture of the floorboards, the wooden workbench, and everyday objects like ceramics and hanging clothes, creating an atmosphere of timeless stillness."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 24
   },
   {
     "id": "obra-out-29",
@@ -522,7 +546,8 @@
       "es": "Una composición pictórica rica en texturas que exalta los objetos de una cocina clásica. Cuchillos, coladores, cafeteras de metal y un rallador de queso se distribuyen en una pared de tonos turquesa envejecido. El estilo fusiona el realismo representativo con una aplicación de color vibrante e impasto ligero, otorgando carácter a los utensilios desgastados.",
       "en": "A pictorially rich composition that exalts the objects of a classic kitchen. Knives, strainers, metal coffee pots, and a cheese grater are arranged on a wall of aged turquoise tones. The style fuses representational realism with vibrant color application and light impasto, giving character to the worn utensils."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 25
   },
   {
     "id": "obra-out-30",
@@ -543,7 +568,8 @@
       "es": "Una íntima escena de interior marcada por una profunda paleta de grises fríos. Una figura humana, de espaldas, forcejea con una prenda frente a un espejo, sugiriendo un momento de transición privada. En la pared, recortes y cuadros –incluyendo el rostro inconfundible de un ícono de Hollywood– acompañan una tabla de planchar, construyendo una narrativa nostálgica y solitaria.",
       "en": "An intimate interior scene marked by a deep palette of cool grays. A human figure, seen from behind, struggles with a garment in front of a mirror, suggesting a moment of private transition. On the wall, clippings and pictures—including the unmistakable face of a Hollywood icon—accompany an ironing board, building a nostalgic and solitary narrative."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 26
   },
   {
     "id": "obra-out-31",
@@ -564,7 +590,8 @@
       "es": "Una obra marcadamente surrealista donde una silueta femenina descansa en la base mientras una mano extendida, tatuada con números y símbolos esotéricos, flota hacia el espectador. La imponente figura de un gallo a la izquierda y formas abstractas entrelazadas en ricas tonalidades azules, rojas y doradas crean un críptico mapa de los sueños o del subconsciente.",
       "en": "A markedly surrealist work where a female silhouette rests at the base while an outstretched hand, tattooed with numbers and esoteric symbols, floats toward the viewer. The imposing figure of a rooster on the left and intertwined abstract shapes in rich blue, red, and golden tones create a cryptic map of dreams or the subconscious."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 27
   },
   {
     "id": "obra-out-32",
@@ -585,7 +612,8 @@
       "es": "Una desconcertante obra que cruza el expresionismo con el pop art de los cincuenta. Un hombre sombrío con sombrero vigila junto a un pez monumental suspendido, enmarcado por una oscura silueta anidando un rojo y llamativo blanco de tiro al blanco. Las pinceladas borrosas distorsionan la identidad de la figura, sumergiendo al observador en una narrativa enigmática de intriga y surrealismo urbano.",
       "en": "A disconcerting work that crosses expressionism with 1950s pop art. A shadowy man in a hat stands watch beside a monumental suspended fish, framed by a dark silhouette nesting a striking red target. Blurred brushstrokes distort the figure's identity, plunging the viewer into an enigmatic narrative of intrigue and urban surrealism."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 28
   },
   {
     "id": "obra-out-33",
@@ -606,7 +634,8 @@
       "es": "Una audaz colisión de iconografía pop y expresionismo abstracto. El inconfundible rostro de Marilyn Monroe emerge rítmicamente entre pinceladas feroces, recortes de texto ('Art', 'LOVE') y abstracciones gestuales. La paleta saturada y la energía caótica rinden homenaje a la cultura de masas bajo un lente crítico y emocional.",
       "en": "A bold collision of pop iconography and abstract expressionism. The unmistakable face of Marilyn Monroe emerges rhythmically amidst fierce brushstrokes, text clippings ('Art', 'LOVE'), and gestural abstractions. The saturated palette and chaotic energy pay homage to mass culture through a critical and emotional lens."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 29
   },
   {
     "id": "obra-out-34",
@@ -627,7 +656,8 @@
       "es": "Una pieza fuertemente dramática y cinemática en la que una figura yace postrada contra un vacío insondable, vestida con una camiseta marcada de manera enigmática. La iluminación rasante escupe un claroscuro violento, elevando la escena desde la vulnerabilidad visceral hacia un profundo cuestionamiento de la mortalidad y el sacrificio.",
       "en": "A heavily dramatic and cinematic piece where a figure lies prostrate against an unfathomable void, wearing an enigmatically marked t-shirt. The raking light casts a violent chiaroscuro, elevating the scene from visceral vulnerability into a profound questioning of mortality and sacrifice."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 30
   },
   {
     "id": "obra-out-4",
@@ -648,7 +678,8 @@
       "es": "Dominada por rojos encendidos y sombras profundas, esta energética abstracción sugiere una bandada mecánica o mítica sobre un ocaso arquitectónico. En este denso tejido de formas y colores, se atisban elementos que rozan lo orgánico, como alas o picos estilizados en un baile de supervivencia cálida.",
       "en": "Dominated by fiery reds and deep shadows, this energetic abstraction suggests a mechanical or mythical flock over an architectural dusk. Within this dense weave of shapes and colors, elements bordering the organic can be glimpsed, like stylized wings or beaks in a dance of warm survival."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 31
   },
   {
     "id": "obra-out-5",
@@ -669,7 +700,8 @@
       "es": "Abstracción náutica que deconstruye botes, muelles y gaviotas en audaces planos angulares. Los ricos azules de Prusia y celestes contrastan con vibrantes amarillos, rojos oxidados y detalles de trama que dotan de vitalidad y ritmo constante al aparente caos espacial. Es una mirada atenta a la vida paralela del puerto.",
       "en": "A nautical abstraction that deconstructs boats, piers, and seagulls into bold angular planes. Rich Prussian blues and light blues contrast with vibrant yellows, rusty reds, and hatched details that endow the apparent spatial chaos with vitality and constant rhythm. It is a close look at the parallel life of the harbor."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 32
   },
   {
     "id": "obra-out-6",
@@ -690,7 +722,8 @@
       "es": "Un lienzo sombrío pero sumamente rítmico, donde estructuras fragmentadas evocan los callejones de una urbe nocturna. Resplandores amarillos y anaranjados rompen la red densa de azules ultramar y oscuros abisales, logrando un notable equilibrio cubista que guía incesantemente al ojo.",
       "en": "A somber yet highly rhythmic canvas where fragmented structures evoke the alleys of a nocturnal metropolis. Yellow and orange glows pierce the dense network of ultramarine blues and abyssal darks, achieving a remarkable cubist balance that incessantly guides the eye."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 33
   },
   {
     "id": "obra-out-7",
@@ -711,7 +744,8 @@
       "es": "Una exploración panorámica de formas que oscilan entre lo arquitectónico y lo floral. Sobre un vibrante fondo celeste fluyen amplias franjas y ángulos escarpados cargados de rojo cadmio oscuro y amarillos tenues, ofreciendo una lectura expansiva propia de la escala monumental de la pintura.",
       "en": "A panoramic exploration of forms oscillating between the architectural and the floral. Over a vibrant light blue background flow sweeping stripes and jagged angles loaded with dark cadmium red and muted yellows, offering an expansive read fitting the painting's monumental scale."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 34
   },
   {
     "id": "obra-out-8",
@@ -732,7 +766,8 @@
       "es": "Con una energía casi musical, franjas gruesas y curvas audaces entrelazan dominios de color puro a lo ancho del soporte. Las pinceladas agresivas y veloces transmiten un ímpetu de la naturaleza como oleajes o vientos, creando una narrativa visual que se despliega rítmicamente sin principio ni fin.",
       "en": "With an almost musical energy, thick stripes and bold curves interlace domains of pure color across the support's width. The aggressive and swift brushstrokes convey a natural momentum akin to swells or winds, creating a visual narrative that unfolds rhythmically without beginning or end."
     },
-    "status": "vendido"
+    "status": "vendido",
+    "order": 35
   },
   {
     "id": "obra-out-9",
@@ -753,6 +788,7 @@
       "es": "Un explosivo estallido de colores complementarios redefine el clásico género del bodegón. Un jarrón azul intenso con extravagantes follajes preside una mesa exuberante en la que patillas carmesíes, frutos dorados desbordados y botellas capturan la luz de manera radiante, infundiendo a los objetos una energía vibrante y vital.",
       "en": "An explosive burst of complementary colors redefines the classic still life genre. An intense blue vase with extravagant foliage presides over a lush table where crimson watermelons, overflowing golden fruits, and bottles capture the light radiantly, infusing the objects with vibrant and vital energy."
     },
-    "status": "disponible"
+    "status": "disponible",
+    "order": 36
   }
 ]

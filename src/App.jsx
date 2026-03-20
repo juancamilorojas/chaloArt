@@ -5,10 +5,12 @@ import Obra from './pages/Obra'
 import Escritos from './pages/Escritos'
 import Biografia from './pages/Biografia'
 import Contacto from './pages/Contacto'
+import Admin from './pages/Admin'
 
 function App() {
   return (
     <Routes>
+      <Route path="/admin" element={<Admin />} />
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="obra" element={<Obra />} />
@@ -21,3 +23,4 @@ function App() {
 }
 
 export default App
+
