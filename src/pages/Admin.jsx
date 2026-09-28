@@ -20,15 +20,27 @@ function reorderForColumns(items, cols) {
   return result.filter(Boolean)
 }
 
+// Map category → collection file name
+const CATEGORY_TO_COLLECTION = {
+  'pintura original': 'artworks',
+  'dibujo rápido': 'sketches',
+  'fotografía': 'photos',
+}
+
 export default function Admin() {
-  const [artworks, setArtworks] = useState([])
+  // Store each collection separately so saves go to the right file
+  const [collections, setCollections] = useState({
+    artworks: [],
+    sketches: [],
+    photos: [],
+  })
   const [loading, setLoading] = useState(true)
-  const [selected, setSelected] = useState(null) // index into artworks
+  const [selected, setSelected] = useState(null) // { collection, index }
   const [draft, setDraft] = useState(null)
   const [saving, setSaving] = useState(false)
   const [toast, setToast] = useState(null)
+  const [activeCategory, setActiveCategory] = useState(null)
 
-  // Column count for responsive grid
   const getColCount = () => {
     if (typeof window === 'undefined') return 3
     if (window.innerWidth <= 540) return 1
@@ -43,23 +55,41 @@ export default function Admin() {
     return () => window.removeEventListener('resize', h)
   }, [])
 
-  // Load artworks from API
+  // Load all collections
   useEffect(() => {
-    fetch('/api/artworks')
-      .then(r => r.json())
-      .then(data => { setArtworks(data); setLoading(false) })
+    Promise.all([
+      fetch('/api/works/artworks').then(r => r.json()),
+      fetch('/api/works/sketches').then(r => r.json()),
+      fetch('/api/works/photos').then(r => r.json()),
+    ])
+      .then(([artworks, sketches, photos]) => {
+        setCollections({ artworks, sketches, photos })
+        setLoading(false)
+      })
       .catch(() => {
         showToast('Error al cargar las obras. ¿Está corriendo el servidor admin?', 'error')
         setLoading(false)
       })
   }, [])
 
-  const orderedArtworks = useMemo(() => {
-    const sorted = [...artworks].sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
-    return reorderForColumns(sorted, colCount)
-  }, [artworks, colCount])
+  // Merge all into one flat array for display, sorted by order
+  const allWorks = useMemo(() => {
+    const merged = [
+      ...collections.artworks,
+      ...collections.sketches,
+      ...collections.photos,
+    ]
+    return merged.sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
+  }, [collections])
 
-  // Prevent background scrolling when modal open
+  const orderedWorks = useMemo(() => {
+    const filtered = activeCategory
+      ? allWorks.filter(a => a.category === activeCategory)
+          .sort((a, b) => (a.categoryOrder ?? a.order ?? Infinity) - (b.categoryOrder ?? b.order ?? Infinity))
+      : allWorks
+    return reorderForColumns(filtered, colCount)
+  }, [allWorks, colCount, activeCategory])
+
   useEffect(() => {
     document.body.style.overflow = selected !== null ? 'hidden' : 'auto'
     return () => { document.body.style.overflow = 'auto' }
@@ -70,10 +100,15 @@ export default function Admin() {
     setTimeout(() => setToast(null), 3000)
   }
 
-  const openEditor = (artwork) => {
-    const idx = artworks.findIndex(a => a.id === artwork.id)
-    setSelected(idx)
-    setDraft(JSON.parse(JSON.stringify(artworks[idx])))
+  const openEditor = (work) => {
+    const collection = CATEGORY_TO_COLLECTION[work.category] || 'artworks'
+    const idx = collections[collection].findIndex(a => a.id === work.id)
+    if (idx === -1) return
+    setSelected({ collection, index: idx })
+    setDraft(JSON.parse(JSON.stringify({
+      ...collections[collection][idx],
+      categoryOrder: work.categoryOrder ?? work.order ?? '',
+    })))
   }
 
   const closeEditor = () => {
@@ -81,13 +116,13 @@ export default function Admin() {
     setDraft(null)
   }
 
-  // Update a nested field in draft, e.g. updateDraft('title.es', value)
   const updateDraft = (path, value) => {
     setDraft(prev => {
       const next = JSON.parse(JSON.stringify(prev))
       const parts = path.split('.')
       let obj = next
       for (let i = 0; i < parts.length - 1; i++) {
+        if (!obj[parts[i]]) obj[parts[i]] = {}
         obj = obj[parts[i]]
       }
       obj[parts[parts.length - 1]] = value
@@ -96,18 +131,55 @@ export default function Admin() {
   }
 
   const handleSave = async () => {
-    if (selected === null || !draft) return
+    if (!selected || !draft) return
+    const categoryOrder = draft.categoryOrder ?? draft.order
+    if (!Number.isInteger(categoryOrder) || categoryOrder < 1) {
+      showToast('Indica un orden dentro de la categoría mayor que cero.', 'error')
+      return
+    }
+    const savedDraft = { ...draft, categoryOrder }
     setSaving(true)
     try {
-      const updated = [...artworks]
-      updated[selected] = draft
-      const res = await fetch('/api/artworks', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(updated)
-      })
-      if (!res.ok) throw new Error('Server error')
-      setArtworks(updated)
+      const { collection, index } = selected
+      const updated = [...collections[collection]]
+
+      // If category changed, move item between collections
+      const newCollection = CATEGORY_TO_COLLECTION[savedDraft.category] || collection
+      if (newCollection !== collection) {
+        // Remove from old
+        updated.splice(index, 1)
+        const newTarget = [...collections[newCollection], savedDraft]
+
+        // Save both collections
+        const [res1, res2] = await Promise.all([
+          fetch(`/api/works/${collection}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(updated),
+          }),
+          fetch(`/api/works/${newCollection}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newTarget),
+          }),
+        ])
+        if (!res1.ok || !res2.ok) throw new Error('Server error')
+        setCollections(prev => ({
+          ...prev,
+          [collection]: updated,
+          [newCollection]: newTarget,
+        }))
+      } else {
+        updated[index] = savedDraft
+        const res = await fetch(`/api/works/${collection}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updated),
+        })
+        if (!res.ok) throw new Error('Server error')
+        setCollections(prev => ({ ...prev, [collection]: updated }))
+      }
+
       showToast('✓ Guardado exitosamente')
       closeEditor()
     } catch (err) {
@@ -133,29 +205,51 @@ export default function Admin() {
           <h1 className="admin__title">Editor de Obras</h1>
           <p className="admin__subtitle">Haz clic en una obra para editar su información</p>
         </div>
-        <span className="admin__badge">{artworks.length} obras</span>
+        <span className="admin__badge">{allWorks.length} obras</span>
       </div>
+
+      {/* Category Filter */}
+      <nav className="obra__filters" aria-label="Filter by category" style={{ marginBottom: 'var(--space-2xl)' }}>
+        <button
+          className={`obra__filter-tab ${activeCategory === null ? 'obra__filter-tab--active' : ''}`}
+          onClick={() => setActiveCategory(null)}
+        >
+          Todo
+        </button>
+        {CATEGORY_OPTIONS.map(cat => (
+          <button
+            key={cat}
+            className={`obra__filter-tab ${activeCategory === cat ? 'obra__filter-tab--active' : ''}`}
+            onClick={() => setActiveCategory(cat)}
+          >
+            {cat}
+          </button>
+        ))}
+      </nav>
 
       {/* Grid */}
       <div className="admin__grid">
-        {orderedArtworks.map((artwork) => (
+        {orderedWorks.map((work) => (
           <div
-            key={artwork.id}
-            className={`obra__card obra__card--${artwork.aspect}`}
-            onClick={() => openEditor(artwork)}
+            key={work.id}
+            className={`obra__card obra__card--${work.aspect || 'square'}`}
+            onClick={() => openEditor(work)}
           >
             <img
-              src={artwork.image}
-              alt={artwork.title?.es || artwork.id}
+              src={work.image}
+              alt={work.title?.es || work.id}
               className="obra__card-image"
               loading="lazy"
             />
             <div className="obra__card-overlay">
               <span className="obra__card-title">
-                {artwork.title?.es || 'Sin título'}, {artwork.year}
+                {work.title?.es || 'Sin título'}{work.year ? `, ${work.year}` : ''}
               </span>
             </div>
             <span className="obra__card-edit-badge">✎ Editar</span>
+            <span className="admin__order-badge">
+              {activeCategory ? `Categoría ${work.categoryOrder ?? work.order ?? '—'}` : `Global ${work.order ?? '—'}`}
+            </span>
           </div>
         ))}
       </div>
@@ -175,18 +269,29 @@ export default function Admin() {
               {/* ID + Order */}
               <div className="admin__form-section">
                 <div className="admin__form-section-title">Identificador</div>
-                <div className="admin__field-row">
+                <div className="admin__field-row-3">
                   <div className="admin__field">
                     <label>ID</label>
                     <input type="text" value={draft.id} readOnly />
                   </div>
                   <div className="admin__field">
-                    <label>Orden</label>
+                    <label>Orden (global)</label>
                     <input
                       type="number"
                       value={draft.order ?? ''}
                       onChange={e => updateDraft('order', parseInt(e.target.value) || '')}
                       min="1"
+                      placeholder="1, 2, 3…"
+                    />
+                  </div>
+                  <div className="admin__field">
+                    <label>Orden en categoría</label>
+                    <input
+                      type="number"
+                      value={draft.categoryOrder ?? draft.order ?? ''}
+                      onChange={e => updateDraft('categoryOrder', e.target.value === '' ? '' : Number(e.target.value))}
+                      min="1"
+                      step="1"
                       placeholder="1, 2, 3…"
                     />
                   </div>
@@ -243,7 +348,6 @@ export default function Admin() {
                       type="text"
                       value={draft.image || ''}
                       onChange={e => updateDraft('image', e.target.value)}
-                      placeholder="/images/artworks/nombre.jpg"
                     />
                   </div>
                 </div>
@@ -280,7 +384,13 @@ export default function Admin() {
                     <label>Categoría</label>
                     <select
                       value={draft.category || ''}
-                      onChange={e => updateDraft('category', e.target.value)}
+                      onChange={e => {
+                        const category = e.target.value
+                        const lastPosition = allWorks
+                          .filter(work => work.category === category && work.id !== draft.id)
+                          .reduce((max, work) => Math.max(max, work.categoryOrder ?? work.order ?? 0), 0)
+                        setDraft(prev => ({ ...prev, category, categoryOrder: lastPosition + 1 }))
+                      }}
                     >
                       <option value="">— Seleccionar —</option>
                       {CATEGORY_OPTIONS.map(c => (

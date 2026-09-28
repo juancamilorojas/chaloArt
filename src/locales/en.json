@@ -10,13 +10,41 @@
   "home": {
     "subtitle": "Hernando Rojas Rentería",
     "title": "\"CHALO\"",
-    "description": "Exploring the intersection between memory, painting, and graphics since 1969. An intimate look at over four decades of creation with a presence in biennials across Europe and Latin America.",
-    "cta": "VIEW RETROSPECTIVE"
+    "description": "From Cali, Chalo Rojas has spent more than five decades drawing, painting, and making photographs. From everyday interiors to abstraction, his work is driven by the same curiosity: to look again at what is right in front of us.",
+    "cta": "VIEW WORKS",
+    "trajectoryLabel": "TRAJECTORY",
+    "trajectoryTitle": "More than five decades of creation",
+    "trajectoryText": "I entered Cali's School of Fine Arts at fourteen. In 1977, I received first prize for drawing at the National Salon of Young Artists at La Tertulia. Since then, I have exhibited in Colombia and abroad and shared my practice as a teacher.",
+    "paintingsLabel": "ORIGINAL PAINTINGS",
+    "paintingsTitle": "Color, matter, and memory",
+    "paintingsText": "Decades of pictorial exploration condensed on canvas. Each work is a fragment of a world seen through the eyes of someone who never stopped looking.",
+    "paintingsCta": "VIEW PAINTINGS",
+    "sketchesLabel": "QUICK SKETCHES",
+    "sketchesTitle": "The line that won't wait",
+    "sketchesText": "Figures, animals, and invented worlds in small format. Free line, direct color, the urgency of the gesture.",
+    "sketchesCta": "VIEW SKETCHES",
+    "photosLabel": "PHOTOGRAPHY",
+    "photosTitle": "Cali through Chalo's lens",
+    "photosText": "Decades walking the streets of Cali with a camera. Architecture, memory, and light in black and white.",
+    "photosCta": "VIEW PHOTOGRAPHY",
+    "ctaLabel": "LET'S TALK",
+    "ctaTitle": "Interested in my work?",
+    "ctaText": "Write to me to ask about my works or if you want to learn about my creative process.",
+    "ctaButton": "GET IN TOUCH"
   },
   "obra": {
     "title": "Works",
     "all": "All",
     "inquire": "INQUIRE",
+    "inquiryMessage": "Hello, I'd like to inquire about the work “{title}”.",
+    "categoryFilterLabel": "Filter by category",
+    "statusFilterLabel": "Filter by sale status",
+    "statusFilter": {
+      "all": "All",
+      "disponible": "Available",
+      "vendido": "Sold"
+    },
+    "noMatchingWorks": "No works in this category match that status.",
     "status": {
       "disponible": "Available",
       "vendido": "Sold"
@@ -34,33 +62,39 @@
     "all": "ALL",
     "anecdotas": "ANECDOTES",
     "cuentos": "STORIES",
-    "readMore": "READ MORE"
+    "readMore": "READ MORE",
+    "comingSoon": "COMING SOON",
+    "comingSoonText": "We are preparing a collection of anecdotes and stories. Come back soon to discover them."
   },
   "biografia": {
     "label": "TRAJECTORY",
     "title": "Biography",
-    "bio_p1": "Chalo is an artist whose practice explores the intersection between memory and matter. With more than four decades of career, his work has established itself as a reference in contemporary art, standing out for its capacity for formal synthesis and conceptual depth.",
-    "bio_p2": "His work has been exhibited in the most prestigious galleries in Europe and Latin America, integrating public and private collections of great historical relevance.",
-    "exposiciones": "EXHIBITIONS",
-    "premios": "AWARDS",
-    "colecciones": "COLLECTIONS",
-    "downloadCv": "DOWNLOAD CV"
+    "bio_p1": "Hernando ‘Chalo’ Rojas Rentería was born in Cali in 1950 and grew up in the El Cedro neighborhood, surrounded by books, conversation, and streets he learned to observe as a child. At fourteen, he entered Cali's School of Fine Arts to pursue a calling already evident in his drawings.",
+    "bio_p2": "He also trained in graphic design at SENA and studied photography in Cali and New York. One of his earliest works was a drawing of a kitchen filled with pots, spoons, and calendars. That attention to interiors and everyday objects, to light and shadow, accompanied his move toward abstraction.",
+    "bio_p3": "In 1977, he won first prize for drawing at the National Salon of Young Artists at Museo La Tertulia. He then spent ten years at Corporación Prográfica, deepening his knowledge of graphic arts alongside Pedro Alcántara Herrán and the work of artists from Colombia and across the Americas.",
+    "bio_p4": "His first exhibition was in 1969, alongside fellow Fine Arts students. His work was later shown across Colombia and in the United States, Puerto Rico, Cuba, Ecuador, Norway, Panama, and Switzerland. In 2000, he showed his photographs at the Instituto Hispanoamericano in Berlin, his most important exhibition.",
+    "bio_p5": "He has also taught at Universidad del Cauca, Universidad Autónoma de Occidente, and Instituto Popular de Cultura. He continues to draw, paint, and photograph with a curiosity he sums up in one line: ‘The more I live, the more I see, and the more I will create.’"
   },
   "contacto": {
-    "intro": "For acquisitions of original works or inquiries about special projects, please complete the following form.",
+    "artistName": "HERNANDO ‘CHALO’ ROJAS",
+    "portraitAlt": "Portrait of Hernando ‘Chalo’ Rojas",
+    "title": "Let's talk",
+    "intro": "Interested in a work or have a project in mind? Share a few details and continue the conversation on WhatsApp.",
     "nombre": "NAME",
     "nombrePlaceholder": "Your full name",
-    "email": "EMAIL",
+    "email": "EMAIL (OPTIONAL)",
     "emailPlaceholder": "example@email.com",
     "mensaje": "MESSAGE",
     "mensajePlaceholder": "Write your message here...",
-    "enviar": "SUBMIT",
-    "sent": "Message sent. Thank you."
+    "enviar": "CONTINUE ON WHATSAPP",
+    "whatsappGreeting": "Hello, I'm {name}.",
+    "whatsappEmail": "My email",
+    "whatsappNote": "WhatsApp will open with your message ready. Review it and press Send to share it."
   },
   "footer": {
-    "copyright": "© 2024 CHALO SPA. ALL RIGHTS RESERVED.",
+    "copyright": "© 2024 CHALO reconocidaL RIGHTS RESERVED.",
     "privacidad": "PRIVACY",
     "terminos": "TERMS",
-    "location": "MADRID / HAVANA"
+    "location": "CALI, COLOMBIA"
   }
 }

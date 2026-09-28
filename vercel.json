@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/obra", "destination": "/obra/index.html" },
+    { "source": "/obra/fotografia", "destination": "/obra/fotografia/index.html" },
+    { "source": "/obra/dibujos", "destination": "/obra/dibujos/index.html" },
+    { "source": "/biografia", "destination": "/biografia/index.html" },
+    { "source": "/contacto", "destination": "/contacto/index.html" },
+    { "source": "/escritos", "destination": "/escritos/index.html" }
+  ]
+}

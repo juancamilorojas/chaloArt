@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "photo_001",
+    "title": {
+      "es": "El oficio entre espejos",
+      "en": "The Trade Among Mirrors"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_001.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un barbero trabaja bajo bombillas desnudas, mientras los espejos multiplican la vida discreta del salón.",
+      "en": "A barber works beneath bare bulbs as the mirrors multiply the quiet life of the shop."
+    },
+    "order": 1,
+    "thumb": "/images/photos/thumbs/photo_001.jpg",
+    "categoryOrder": 1,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_002",
+    "title": {
+      "es": "Dos caminantes en la cuesta",
+      "en": "Two Walkers on the Hill"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_002.jpg",
+    "category": "fotografía",
+    "aspect": "portrait",
+    "description": {
+      "es": "Dos figuras suben una calle empinada; postes y fachadas convierten el trayecto cotidiano en una línea hacia el cielo.",
+      "en": "Two figures climb a steep street; poles and facades turn an everyday walk into a line toward the sky."
+    },
+    "order": 2,
+    "thumb": "/images/photos/thumbs/photo_002.jpg",
+    "categoryOrder": 2,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_003",
+    "title": {
+      "es": "Casa del centro histórico",
+      "en": "House in the Historic Center"
+    },
+    "year": 2017,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_003.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La esquina conserva balcones y puertas gastadas; sus muros muestran las capas de la ciudad.",
+      "en": "The corner keeps its balconies and worn doors; its walls reveal the city's many layers."
+    },
+    "order": 3,
+    "thumb": "/images/photos/thumbs/photo_003.jpg",
+    "categoryOrder": 3,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_004",
+    "title": {
+      "es": "Caña bajo el cielo del Valle",
+      "en": "Sugarcane Beneath the Valley Sky"
+    },
+    "year": 2018,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_004.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La caña se extiende bajo un cielo abierto, interrumpida apenas por un árbol solitario.",
+      "en": "Sugarcane stretches beneath an open sky, interrupted only by a solitary tree."
+    },
+    "order": 4,
+    "thumb": "/images/photos/thumbs/photo_004.jpg",
+    "categoryOrder": 4,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_005",
+    "title": {
+      "es": "La esquina de la iglesia",
+      "en": "The Church Corner"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_005.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una persona cruza frente a la iglesia; las casas bajas y los tejados guardan la calma de la escena.",
+      "en": "A passerby crosses before the church; low houses and tiled roofs hold the scene in quiet balance."
+    },
+    "order": 5,
+    "thumb": "/images/photos/thumbs/photo_005.jpg",
+    "categoryOrder": 5,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_006",
+    "title": {
+      "es": "Fachada con sombrilla",
+      "en": "Facade with Umbrella"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_006.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una fachada señorial recibe la luz de la calle, mientras una pequeña sombrilla anima la esquina.",
+      "en": "A stately facade meets the street light while a small umbrella brings the corner to life."
+    },
+    "order": 6,
+    "thumb": "/images/photos/thumbs/photo_006.jpg",
+    "categoryOrder": 6,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_007",
+    "title": {
+      "es": "La espera bajo la sombrilla",
+      "en": "Waiting Beneath the Umbrella"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_007.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La sombrilla y los peatones dan escala humana a la solemnidad de un edificio antiguo.",
+      "en": "An umbrella and a few pedestrians bring human scale to the grandeur of an old building."
+    },
+    "order": 7,
+    "thumb": "/images/photos/thumbs/photo_007.jpg",
+    "categoryOrder": 7,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_008",
+    "title": {
+      "es": "Ciclista de la calle estrecha",
+      "en": "Cyclist on the Narrow Street"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_008.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un ciclista atraviesa una calle estrecha; la repetición de ventanas y muros marca su dirección.",
+      "en": "A cyclist crosses a narrow street, guided by the rhythm of windows and walls."
+    },
+    "order": 8,
+    "thumb": "/images/photos/thumbs/photo_008.jpg",
+    "categoryOrder": 8,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_009",
+    "title": {
+      "es": "La palabra en el asfalto",
+      "en": "A Word on the Asphalt"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_009.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La orden pintada en el suelo detiene la mirada, pero la calle sigue abriéndose entre fachadas.",
+      "en": "The word painted on the road stops the eye even as the street continues between the facades."
+    },
+    "order": 9,
+    "thumb": "/images/photos/thumbs/photo_009.jpg",
+    "categoryOrder": 9,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_010",
+    "title": {
+      "es": "Balcones y cables",
+      "en": "Balconies and Wires"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_010.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Balcones, puertas y cables ordenan una calle donde el tiempo parece avanzar a otro ritmo.",
+      "en": "Balconies, doors, and wires give rhythm to a street where time seems to move differently."
+    },
+    "order": 10,
+    "thumb": "/images/photos/thumbs/photo_010.jpg",
+    "categoryOrder": 10,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_011",
+    "title": {
+      "es": "La cúpula blanca",
+      "en": "The White Dome"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_011.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La cúpula luminosa domina la plaza, mientras un ciclista recuerda que la ciudad nunca se detiene.",
+      "en": "The bright dome presides over the square while a cyclist reminds us that the city keeps moving."
+    },
+    "order": 11,
+    "thumb": "/images/photos/thumbs/photo_011.jpg",
+    "categoryOrder": 11,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_012",
+    "title": {
+      "es": "El brillo de los zapatos",
+      "en": "The Shine of Shoes"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_012.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "En la acera, el brillo de un zapato reúne al trabajador y al cliente en un gesto de confianza.",
+      "en": "On the pavement, a shoe shine brings worker and customer together in a small act of trust."
+    },
+    "order": 12,
+    "thumb": "/images/photos/thumbs/photo_012.jpg",
+    "categoryOrder": 12,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_013",
+    "title": {
+      "es": "Casa que resiste",
+      "en": "A House That Endures"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_013.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una casa baja ocupa la esquina como un recuerdo persistente, marcada por puertas y huellas en el muro.",
+      "en": "A low house holds the corner like a lasting memory, its doors and walls carrying visible traces of time."
+    },
+    "order": 13,
+    "thumb": "/images/photos/thumbs/photo_013.jpg",
+    "categoryOrder": 13,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_014",
+    "title": {
+      "es": "Bajo el letrero de emergencia",
+      "en": "Beneath the Emergency Sign"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_014.jpg",
+    "category": "fotografía",
+    "aspect": "portrait",
+    "description": {
+      "es": "Bajo la palabra «Emergencia», una figura espera entre reflejos y grafitis; la calle se vuelve escenario de contrastes.",
+      "en": "Beneath the word Emergency, a figure waits among reflections and graffiti; the street becomes a stage of contrasts."
+    },
+    "order": 14,
+    "thumb": "/images/photos/thumbs/photo_014.jpg",
+    "categoryOrder": 14,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_015",
+    "title": {
+      "es": "Descanso junto a la bicicleta",
+      "en": "Rest Beside the Bicycle"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_015.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un hombre descansa junto a su bicicleta; la rueda en primer plano convierte la pausa en protagonista.",
+      "en": "A man rests beside his bicycle; the wheel in the foreground makes the pause the center of the image."
+    },
+    "order": 15,
+    "thumb": "/images/photos/thumbs/photo_015.jpg",
+    "categoryOrder": 15,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_016",
+    "title": {
+      "es": "La curva del centro",
+      "en": "The Downtown Curve"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_016.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La curva de la calle acompaña una fachada monumental y deja ver cómo el centro cambia de dirección.",
+      "en": "The bend in the road follows a monumental facade and reveals how the city center changes direction."
+    },
+    "order": 16,
+    "thumb": "/images/photos/thumbs/photo_016.jpg",
+    "categoryOrder": 16,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_017",
+    "title": {
+      "es": "La esquina de los arcos",
+      "en": "The Corner of Arches"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_017.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Los arcos y ventanas de una gran esquina conservan la geometría de otra época entre motos y peatones.",
+      "en": "The arches and windows of a grand corner keep an older geometry alive among motorcycles and pedestrians."
+    },
+    "order": 17,
+    "thumb": "/images/photos/thumbs/photo_017.jpg",
+    "categoryOrder": 17,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_018",
+    "title": {
+      "es": "Mural en la casa antigua",
+      "en": "Mural on the Old House"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_018.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un rostro pintado ocupa el muro de una casa antigua; la memoria del barrio aparece en la fachada.",
+      "en": "A painted face fills the wall of an old house; the neighborhood's memory appears on its facade."
+    },
+    "order": 18,
+    "thumb": "/images/photos/thumbs/photo_018.jpg",
+    "categoryOrder": 18,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_019",
+    "title": {
+      "es": "La ciudad señalada",
+      "en": "The City Pointed Out"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_019.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Desde una altura, dos personas miran y señalan la ciudad extendida bajo el cielo.",
+      "en": "From above, two people look out and point toward the city spread beneath the sky."
+    },
+    "order": 19,
+    "thumb": "/images/photos/thumbs/photo_019.jpg",
+    "categoryOrder": 19,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_020",
+    "title": {
+      "es": "Dos máscaras, una sonrisa",
+      "en": "Two Masks, One Smile"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_020.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Dos jóvenes con rostros pintados miran de frente; la fiesta asoma entre gestos y sonrisas.",
+      "en": "Two young people with painted faces meet the camera; celebration appears in their gestures and smiles."
+    },
+    "order": 20,
+    "thumb": "/images/photos/thumbs/photo_020.jpg",
+    "categoryOrder": 20,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_021",
+    "title": {
+      "es": "Bicicleta al tronco",
+      "en": "Bicycle Against the Tree"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_021.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una bicicleta apoyada contra un árbol queda en silencio, mientras la plaza continúa fuera de cuadro.",
+      "en": "A bicycle rests against a tree in stillness while the square carries on beyond the frame."
+    },
+    "order": 21,
+    "thumb": "/images/photos/thumbs/photo_021.jpg",
+    "categoryOrder": 21,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_022",
+    "title": {
+      "es": "Calle de fachadas blancas",
+      "en": "Street of White Facades"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_022.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Dos casas de techos bajos se encuentran en una esquina atravesada por cables y sombras.",
+      "en": "Two low-roofed houses meet at a corner crossed by wires and shadows."
+    },
+    "order": 22,
+    "thumb": "/images/photos/thumbs/photo_022.jpg",
+    "categoryOrder": 22,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_023",
+    "title": {
+      "es": "Cruce de silencios",
+      "en": "Crossroads of Quiet"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_023.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "En el cruce casi vacío, las casas blancas y los postes dibujan una quietud pasajera.",
+      "en": "At a nearly empty crossing, white houses and utility poles sketch a passing stillness."
+    },
+    "order": 23,
+    "thumb": "/images/photos/thumbs/photo_023.jpg",
+    "categoryOrder": 23,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_024",
+    "title": {
+      "es": "Camino compartido",
+      "en": "A Shared Walk"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_024.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Dos personas avanzan juntas por una calle luminosa, pequeñas frente a las fachadas que las rodean.",
+      "en": "Two people walk together down a bright street, small against the facades around them."
+    },
+    "order": 24,
+    "thumb": "/images/photos/thumbs/photo_024.jpg",
+    "categoryOrder": 24,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_025",
+    "title": {
+      "es": "La calle en penumbra",
+      "en": "The Street in Half-Light"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_025.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La sombra corta la calle en dos y deja que una hilera de puertas conduzca la mirada hacia el fondo.",
+      "en": "Shadow divides the street and lets a row of doorways lead the eye into the distance."
+    },
+    "order": 25,
+    "thumb": "/images/photos/thumbs/photo_025.jpg",
+    "categoryOrder": 25,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_026",
+    "title": {
+      "es": "Ventanas al mediodía",
+      "en": "Windows at Midday"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_026.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una fachada de ventanas altas acompaña una calle angosta donde la luz abre el paso.",
+      "en": "Tall windows line a narrow street where light opens the way ahead."
+    },
+    "order": 26,
+    "thumb": "/images/photos/thumbs/photo_026.jpg",
+    "categoryOrder": 26,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_027",
+    "title": {
+      "es": "Al doblar la esquina",
+      "en": "Turning the Corner"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_027.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una figura cruza la esquina; la sombra de la casa blanca vuelve más nítido ese instante.",
+      "en": "A figure rounds the corner; the shadow of the white house gives the moment a sharper edge."
+    },
+    "order": 27,
+    "thumb": "/images/photos/thumbs/photo_027.jpg",
+    "categoryOrder": 27,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_028",
+    "title": {
+      "es": "Casas frente a frente",
+      "en": "Houses Face to Face"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_028.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Fachadas de distintas edades se miran a través de la calle, en un diálogo silencioso entre ventanas.",
+      "en": "Facades from different eras face one another across the street in a quiet exchange of windows."
+    },
+    "order": 28,
+    "thumb": "/images/photos/thumbs/photo_028.jpg",
+    "categoryOrder": 28,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_029",
+    "title": {
+      "es": "Dos pasos bajo los árboles",
+      "en": "Two Walkers Beneath the Trees"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_029.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Dos caminantes atraviesan la sombra de los árboles junto a muros de piedra y casas altas.",
+      "en": "Two walkers cross beneath the trees beside stone walls and tall houses."
+    },
+    "order": 29,
+    "thumb": "/images/photos/thumbs/photo_029.jpg",
+    "categoryOrder": 29,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_030",
+    "title": {
+      "es": "La calle en ascenso",
+      "en": "The Rising Street"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_030.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La calle asciende entre un muro de piedra y fachadas blancas, guiada por la luz del fondo.",
+      "en": "The street rises between a stone wall and white facades, drawn toward the light ahead."
+    },
+    "order": 30,
+    "thumb": "/images/photos/thumbs/photo_030.jpg",
+    "categoryOrder": 30,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_031",
+    "title": {
+      "es": "Bicicleta frente a la fachada",
+      "en": "Bicycle Before the Facade"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_031.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una bicicleta pasa frente a una fachada envejecida; el movimiento breve se enfrenta a la permanencia del edificio.",
+      "en": "A bicycle passes an aging facade; a fleeting movement meets the building's long endurance."
+    },
+    "order": 31,
+    "thumb": "/images/photos/thumbs/photo_031.jpg",
+    "categoryOrder": 31,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_032",
+    "title": {
+      "es": "Torre contra el cielo",
+      "en": "Tower Against the Sky"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_032.jpg",
+    "category": "fotografía",
+    "aspect": "portrait",
+    "description": {
+      "es": "La torre emerge sobre la calle como un faro urbano, recortada contra un cielo despejado.",
+      "en": "The tower rises above the street like an urban beacon, cut against a clear sky."
+    },
+    "order": 32,
+    "thumb": "/images/photos/thumbs/photo_032.jpg",
+    "categoryOrder": 32,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_033",
+    "title": {
+      "es": "El vendedor y su carro",
+      "en": "The Vendor and His Cart"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_033.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un vendedor permanece junto a su carro de comida; la plaza se reconoce también por sus oficios.",
+      "en": "A vendor stands beside his food cart; the square is shaped as much by its trades as by its buildings."
+    },
+    "order": 33,
+    "thumb": "/images/photos/thumbs/photo_033.jpg",
+    "categoryOrder": 33,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_034",
+    "title": {
+      "es": "Esperar con la bicicleta",
+      "en": "Waiting with the Bicycle"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_034.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Alguien descansa detrás de su bicicleta en un parque, resguardado por la sombra de los árboles.",
+      "en": "Someone rests behind a bicycle in the park, sheltered by the shade of the trees."
+    },
+    "order": 34,
+    "thumb": "/images/photos/thumbs/photo_034.jpg",
+    "categoryOrder": 34,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_035",
+    "title": {
+      "es": "El río entre piedras",
+      "en": "The River Among Stones"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_035.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Las piedras ordenan el cauce mientras varias personas ocupan el agua y las orillas del río.",
+      "en": "Stones shape the riverbed as people gather in the water and along its banks."
+    },
+    "order": 35,
+    "thumb": "/images/photos/thumbs/photo_035.jpg",
+    "categoryOrder": 35,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_036",
+    "title": {
+      "es": "Pedalear entre grafitis",
+      "en": "Cycling Past Graffiti"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_036.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un ciclista pasa frente a una pared cubierta de firmas; el barrio escribe y reescribe su propio paisaje.",
+      "en": "A cyclist passes a wall covered in tags; the neighborhood keeps writing and rewriting its landscape."
+    },
+    "order": 36,
+    "thumb": "/images/photos/thumbs/photo_036.jpg",
+    "categoryOrder": 36,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_037",
+    "title": {
+      "es": "Montaña y nube",
+      "en": "Mountain and Cloud"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_037.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La montaña y las nubes se responden sobre un campo oscuro, sin más arquitectura que el horizonte.",
+      "en": "Mountain and cloud answer each other above a dark field, with no architecture but the horizon."
+    },
+    "order": 37,
+    "thumb": "/images/photos/thumbs/photo_037.jpg",
+    "categoryOrder": 37,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_038",
+    "title": {
+      "es": "Domingo en el Parque Panamericano",
+      "en": "Sunday in Parque Panamericano"
+    },
+    "year": 2015,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_038.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Bajo las banderas del Parque Panamericano, la gente ocupa el césped en la calma de un domingo.",
+      "en": "Beneath the flags of Parque Panamericano, people gather on the grass in the ease of a Sunday."
+    },
+    "order": 38,
+    "thumb": "/images/photos/thumbs/photo_038.jpg",
+    "categoryOrder": 38,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_039",
+    "title": {
+      "es": "Umbral de San Francisco",
+      "en": "Threshold of San Francisco"
+    },
+    "year": 2010,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_039.jpg",
+    "category": "fotografía",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una figura queda a contraluz en el umbral de San Francisco; la puerta blanca sostiene todo el silencio.",
+      "en": "A figure stands in silhouette at the threshold of San Francisco; the bright doorway holds the surrounding silence."
+    },
+    "order": 39,
+    "thumb": "/images/photos/thumbs/photo_039.jpg",
+    "categoryOrder": 39,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_040",
+    "title": {
+      "es": "Desde el mirador de Belalcázar",
+      "en": "From the Belalcázar Lookout"
+    },
+    "year": 2014,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_040.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La figura de Sebastián de Belalcázar mira la ciudad desde lo alto, mientras las personas continúan a sus pies.",
+      "en": "The figure of Sebastián de Belalcázar overlooks the city while people continue their lives below."
+    },
+    "order": 40,
+    "thumb": "/images/photos/thumbs/photo_040.jpg",
+    "categoryOrder": 40,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_041",
+    "title": {
+      "es": "La esquina del tiempo",
+      "en": "The Corner of Time"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_041.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una casa de esquina, redondeada y solitaria, reúne grietas, anuncios y nubes en una sola fachada.",
+      "en": "A rounded corner house gathers cracks, signs, and clouds into one solitary facade."
+    },
+    "order": 41,
+    "thumb": "/images/photos/thumbs/photo_041.jpg",
+    "categoryOrder": 41,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_042",
+    "title": {
+      "es": "Cali desde los tejados",
+      "en": "Cali from the Rooftops"
+    },
+    "year": 2017,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_042.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Desde las alturas, Cali aparece entre tejados, árboles y edificios que se recortan contra el cielo.",
+      "en": "From above, Cali emerges among rooftops, trees, and buildings outlined against the sky."
+    },
+    "order": 42,
+    "thumb": "/images/photos/thumbs/photo_042.jpg",
+    "categoryOrder": 42,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_043",
+    "title": {
+      "es": "Cali y sus caminos",
+      "en": "Cali and Its Roads"
+    },
+    "year": 2017,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_043.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Las vías atraviesan el tejido de Cali; desde arriba, el movimiento se vuelve dibujo urbano.",
+      "en": "Roads cross the fabric of Cali; from above, their movement becomes an urban drawing."
+    },
+    "order": 43,
+    "thumb": "/images/photos/thumbs/photo_043.jpg",
+    "categoryOrder": 43,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_044",
+    "title": {
+      "es": "Peluquería de Aguablanca",
+      "en": "Barbershop in Aguablanca"
+    },
+    "year": 2014,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_044.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una peluquería de Aguablanca abre su vida cotidiana hacia la calle: corte de pelo, conversación y espera.",
+      "en": "A barbershop in Aguablanca opens its daily life to the street: haircuts, conversation, and waiting."
+    },
+    "order": 44,
+    "thumb": "/images/photos/thumbs/photo_044.jpg",
+    "categoryOrder": 44,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_045",
+    "title": {
+      "es": "Puente Ortiz y la plaza",
+      "en": "Puente Ortiz and the Square"
+    },
+    "year": 2017,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_045.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "El espacio junto al Puente Ortiz reúne fachadas, plaza y transeúntes bajo un cielo luminoso.",
+      "en": "The space by Puente Ortiz brings facades, square, and passersby together beneath a bright sky."
+    },
+    "order": 45,
+    "thumb": "/images/photos/thumbs/photo_045.jpg",
+    "categoryOrder": 45,
+    "status": "disponible"
+  },
+  {
+    "id": "photo_046",
+    "title": {
+      "es": "Teatro Municipal de Cali",
+      "en": "Cali Municipal Theater"
+    },
+    "year": null,
+    "medium": {
+      "es": "Fotografía en blanco y negro",
+      "en": "Black-and-white photography"
+    },
+    "image": "/images/photos/photo_046.jpg",
+    "category": "fotografía",
+    "aspect": "landscape",
+    "description": {
+      "es": "La fachada del Teatro Municipal se alza junto a construcciones más antiguas; distintas épocas comparten la misma calle.",
+      "en": "The Municipal Theater rises beside older buildings; different eras share the same street."
+    },
+    "order": 46,
+    "thumb": "/images/photos/thumbs/photo_046.jpg",
+    "categoryOrder": 46,
+    "status": "disponible"
+  }
+]

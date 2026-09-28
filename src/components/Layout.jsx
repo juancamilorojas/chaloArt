@@ -1,7 +1,8 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router'
 import { useLanguage } from '../context/LanguageContext'
 import './Layout.css'
 import { useState } from 'react'
+import Seo from './Seo'
 
 export default function Layout() {
   const { lang, setLang, t } = useLanguage()
@@ -13,12 +14,12 @@ export default function Layout() {
 
   return (
     <div className="layout">
+      <Seo />
       {/* ===== HEADER ===== */}
       <header className="header" id="site-header">
         <div className="header__inner">
           <NavLink to="/" className="header__logo" id="logo-link">
-            <span className="header__logo-icon">❧</span>
-            <span className="header__logo-text">CHALO</span>
+            <img src="/assets/Logo_Chalo.png" alt="Chalo — Rojas Rentería" className="header__logo-img" width="512" height="359" />
           </NavLink>
 
           <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`} id="main-nav">
@@ -68,12 +69,17 @@ export default function Layout() {
             <span className="footer__copyright">{t('footer.copyright')}</span>
           </div>
           <div className="footer__center">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer__link">INSTAGRAM</a>
-            <a href="https://artsy.net" target="_blank" rel="noopener noreferrer" className="footer__link">ARTSY</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer__link">LINKEDIN</a>
+            <a href="https://www.instagram.com/chalorojas_?stkn=bWoyOTI1eWRzZjNk&utm_source=qr" target="_blank" rel="noopener noreferrer" className="footer__link">INSTAGRAM</a>
           </div>
           <div className="footer__right">
             <span className="footer__location">{t('footer.location')}</span>
+            <div className="footer__credit">
+              <img src="/assets/imagia-mark.png" alt="" className="footer__credit-mark" width="128" height="112" loading="lazy" />
+              <span className="footer__credit-type">
+                <span className="footer__credit-overline">BUILT BY</span>
+                <span className="footer__credit-name">IMAG<span>IA</span></span>
+              </span>
+            </div>
           </div>
         </div>
       </footer>

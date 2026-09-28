@@ -10,13 +10,41 @@
   "home": {
     "subtitle": "Hernando Rojas Rentería",
     "title": "\"CHALO\"",
-    "description": "Explorando la intersección entre la memoria, la pintura y la gráfica desde 1969. Una mirada íntima a más de cuatro décadas de creación con presencia en bienales de Europa y América Latina.",
-    "cta": "VER RETROSPECTIVA"
+    "description": "Desde Cali, Chalo Rojas ha dedicado más de cinco décadas al dibujo, la pintura y la fotografía. De los interiores cotidianos a la abstracción, su obra conserva una misma curiosidad: mirar de nuevo lo que tenemos enfrente.",
+    "cta": "VER OBRA",
+    "trajectoryLabel": "TRAYECTORIA",
+    "trajectoryTitle": "Más de cinco décadas de creación",
+    "trajectoryText": "A los catorce años ingresé a Bellas Artes de Cali. En 1977 recibí el primer premio de dibujo del Salón Nacional de Artistas Jóvenes en La Tertulia. Desde entonces he expuesto en Colombia y en el exterior, y he compartido mi oficio como docente.",
+    "paintingsLabel": "PINTURA ORIGINAL",
+    "paintingsTitle": "Color, materia y memoria",
+    "paintingsText": "Décadas de exploración pictórica condensadas en lienzo. Cada obra es un fragmento de mundo visto con los ojos de quien nunca dejó de mirar.",
+    "paintingsCta": "VER PINTURAS",
+    "sketchesLabel": "DIBUJOS RÁPIDOS",
+    "sketchesTitle": "El trazo que no espera",
+    "sketchesText": "Figuras, animales y mundos inventados en pequeño formato. La línea libre, el color directo, la urgencia del gesto.",
+    "sketchesCta": "VER DIBUJOS",
+    "photosLabel": "FOTOGRAFÍA",
+    "photosTitle": "Cali vista por Chalo",
+    "photosText": "Décadas recorriendo las calles de Cali con la cámara. Arquitectura, memoria y luz en blanco y negro.",
+    "photosCta": "VER FOTOGRAFÍAS",
+    "ctaLabel": "HABLEMOS",
+    "ctaTitle": "¿Te interesa mi trabajo?",
+    "ctaText": "Escríbeme para preguntarme sobre mis obras o si quieres conocer acerca de mi proceso creativo.",
+    "ctaButton": "CONTACTAR"
   },
   "obra": {
     "title": "Obra",
     "all": "Todo",
     "inquire": "CONSULTAR",
+    "inquiryMessage": "Hola, me gustaría consultar sobre la obra «{title}».",
+    "categoryFilterLabel": "Filtrar por categoría",
+    "statusFilterLabel": "Filtrar por estado de venta",
+    "statusFilter": {
+      "all": "Todas",
+      "disponible": "Disponibles",
+      "vendido": "Vendidas"
+    },
+    "noMatchingWorks": "No hay obras en esta categoría con ese estado.",
     "status": {
       "disponible": "Disponible",
       "vendido": "Vendido"
@@ -34,33 +62,39 @@
     "all": "TODOS",
     "anecdotas": "ANÉCDOTAS",
     "cuentos": "CUENTOS",
-    "readMore": "LEER MÁS"
+    "readMore": "LEER MÁS",
+    "comingSoon": "PRÓXIMAMENTE",
+    "comingSoonText": "Estamos preparando una colección de anécdotas y cuentos. Vuelve pronto para descubrirlos."
   },
   "biografia": {
     "label": "TRAYECTORIA",
     "title": "Biografía",
-    "bio_p1": "Chalo es un artista cuya práctica explora la intersección entre la memoria y la materia. Con más de cuatro décadas de trayectoria, su obra se ha consolidado como un referente en el arte contemporáneo, destacando por su capacidad de síntesis formal y profundidad conceptual.",
-    "bio_p2": "Su trabajo ha sido exhibido en las galerías más prestigiosas de Europa y América Latina, integrando colecciones públicas y privadas de gran relevancia histórica.",
-    "exposiciones": "EXPOSICIONES",
-    "premios": "PREMIOS",
-    "colecciones": "COLECCIONES",
-    "downloadCv": "DOWNLOAD CV"
+    "bio_p1": "Hernando «Chalo» Rojas Rentería nació en Cali en 1950 y creció en el barrio El Cedro, entre libros, conversaciones y calles que aprendió a observar desde niño. A los catorce años ingresó a Bellas Artes de Cali para seguir una vocación que ya se expresaba en sus dibujos.",
+    "bio_p2": "También se formó en diseño gráfico en el SENA y estudió fotografía en Cali y Nueva York. Una de sus primeras obras fue el dibujo de una cocina llena de pailas, cucharas y almanaques. Esa atención a los interiores y objetos cotidianos, a la luz y la sombra, acompañó su camino hacia la abstracción.",
+    "bio_p3": "En 1977 obtuvo el primer premio de dibujo en el Salón Nacional de Artistas Jóvenes del Museo La Tertulia. Después trabajó durante diez años en la Corporación Prográfica, donde profundizó en las artes gráficas junto a Pedro Alcántara Herrán y la obra de artistas de Colombia y América.",
+    "bio_p4": "Su primera exposición fue en 1969, junto a sus compañeros de Bellas Artes. Con los años, expuso en Colombia, Estados Unidos, Puerto Rico, Cuba, Ecuador, Noruega, Panamá y Suiza. En 2000 presentó sus fotografías en el Instituto Hispanoamericano de Berlín, la muestra que recuerda como la más importante de su carrera.",
+    "bio_p5": "También enseñó en la Universidad del Cauca, la Universidad Autónoma de Occidente y el Instituto Popular de Cultura. Sigue dibujando, pintando y fotografiando con la curiosidad que resume en una frase: «Entre más vivo, más veo, y más voy a crear»."
   },
   "contacto": {
-    "intro": "Para adquisiciones de obras originales o consultas sobre proyectos especiales, por favor complete el siguiente formulario.",
+    "artistName": "HERNANDO ‘CHALO’ ROJAS",
+    "portraitAlt": "Retrato de Hernando ‘Chalo’ Rojas",
+    "title": "Conversemos",
+    "intro": "¿Te interesa una obra o quieres hablar de un proyecto? Cuéntame qué tienes en mente y seguimos la conversación por WhatsApp.",
     "nombre": "NOMBRE",
     "nombrePlaceholder": "Su nombre completo",
-    "email": "EMAIL",
+    "email": "CORREO (OPCIONAL)",
     "emailPlaceholder": "ejemplo@correo.com",
     "mensaje": "MENSAJE",
     "mensajePlaceholder": "Escriba su mensaje aquí...",
-    "enviar": "ENVIAR",
-    "sent": "Mensaje enviado. Gracias."
+    "enviar": "CONTINUAR EN WHATSAPP",
+    "whatsappGreeting": "Hola, soy {name}.",
+    "whatsappEmail": "Mi correo",
+    "whatsappNote": "Se abrirá WhatsApp con tu mensaje listo. Revísalo y pulsa Enviar para compartirlo."
   },
   "footer": {
-    "copyright": "© 2024 CHALO SPA. TODOS LOS DERECHOS RESERVADOS.",
+    "copyright": "© 2024 CHALO . TODOS LOS DERECHOS RESERVADOS.",
     "privacidad": "PRIVACIDAD",
     "terminos": "TÉRMINOS",
-    "location": "MADRID / LA HABANA"
+    "location": "CALI, COLOMBIA"
   }
 }

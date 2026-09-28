@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Inter:wght@300;400&amp;display=swap');
+    </style>
+  </defs>
+  <!-- Main wordmark -->
+  <text
+    x="0"
+    y="32"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-weight="600"
+    font-size="38"
+    letter-spacing="0.22em"
+    fill="#121212"
+  >CHALO</text>
+  <!-- Decorative thin rule -->
+  <line x1="188" y1="24" x2="210" y2="24" stroke="#121212" stroke-width="0.8"/>
+  <!-- Subtitle -->
+  <text
+    x="216"
+    y="19"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="300"
+    font-size="7.5"
+    letter-spacing="0.18em"
+    fill="#6B6B6B"
+  >ROJAS</text>
+  <text
+    x="216"
+    y="30"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="300"
+    font-size="7.5"
+    letter-spacing="0.18em"
+    fill="#6B6B6B"
+  >RENTERÍA</text>
+</svg>

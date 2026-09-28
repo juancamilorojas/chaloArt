@@ -1,168 +1,66 @@
 /* ============================================
-   Escritos — Writings & Stories
+   Escritos — Coming Soon
    ============================================ */
 
 .escritos {
   background: var(--color-bg-primary);
   min-height: calc(100vh - var(--header-height));
-  padding: var(--space-section) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.escritos__inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.escritos__coming-soon {
+  text-align: center;
+  padding: var(--space-4xl) var(--container-padding);
+  animation: escritosFade 1s ease-out 0.2s both;
+}
+
+.escritos__label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-lg);
 }
 
 .escritos__title {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: var(--fs-section-title);
-  font-weight: var(--fw-regular);
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-light);
+  line-height: 1.1;
   color: var(--color-text-primary);
   margin-bottom: var(--space-xl);
-  text-align: center;
 }
 
-/* Tabs */
-.escritos__tabs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--space-xl);
-  margin-bottom: var(--space-3xl);
-  border-bottom: 1px solid var(--color-border-light);
-  padding-bottom: var(--space-md);
-  width: 100%;
-  max-width: 600px;
+.escritos__rule {
+  width: 48px;
+  height: 1px;
+  background: var(--color-border);
+  margin: 0 auto var(--space-xl);
 }
 
-.escritos__tab {
+.escritos__text {
   font-family: var(--font-sans);
-  font-size: var(--fs-nav);
-  font-weight: var(--fw-medium);
-  letter-spacing: var(--ls-nav);
-  text-transform: uppercase;
-  color: var(--color-text-secondary);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: var(--space-xs) 0;
-  position: relative;
-  transition: color var(--transition-fast);
-}
-
-.escritos__tab:hover {
-  color: var(--color-text-primary);
-}
-
-.escritos__tab.active {
-  color: var(--color-text-primary);
-}
-
-.escritos__tab.active::after {
-  content: '';
-  position: absolute;
-  bottom: calc(-1 * var(--space-md) - 1px);
-  left: 0;
-  width: 100%;
-  height: 1.5px;
-  background: var(--color-text-primary);
-}
-
-/* Grid */
-.escritos__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-4xl);
-  width: 100%;
-}
-
-/* Card */
-.escritos__card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-}
-
-.escritos__card-image-wrap {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4/5;
-  overflow: hidden;
-  background: var(--color-bg-secondary);
-}
-
-.escritos__card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition-slow);
-}
-
-.escritos__card:hover .escritos__card-image {
-  transform: scale(1.02);
-}
-
-.escritos__card-title {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: var(--fs-card-title);
+  font-size: var(--fs-body-lg);
   font-weight: var(--fw-regular);
-  color: var(--color-text-primary);
-  margin-bottom: var(--space-sm);
-}
-
-.escritos__card-excerpt {
-  font-family: var(--font-sans);
-  font-size: var(--fs-body);
-  font-weight: var(--fw-regular);
+  line-height: 1.7;
   color: var(--color-text-secondary);
-  line-height: 1.6;
-  margin-bottom: var(--space-lg);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
-.escritos__card-readmore {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-xs);
-  font-family: var(--font-sans);
-  font-size: var(--fs-label);
-  font-weight: var(--fw-semibold);
-  letter-spacing: var(--ls-nav);
-  text-transform: uppercase;
-  color: var(--color-text-primary);
-  background: none;
-  border: none;
-  cursor: pointer;
-  transition: gap var(--transition-base);
-}
-
-.escritos__card-readmore:hover {
-  gap: var(--space-sm);
-}
-
-.escritos__card-readmore .material-icons {
-  font-size: 1.25rem;
-  transition: transform var(--transition-base);
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 768px) {
-  .escritos__grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-3xl);
+@keyframes escritosFade {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
   }
-
-  .escritos__tabs {
-    gap: var(--space-md);
-  }
-
-  .escritos__tab {
-    font-size: 0.65rem;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

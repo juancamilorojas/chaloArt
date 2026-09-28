@@ -1,0 +1,779 @@
+[
+  {
+    "id": "sketch_001",
+    "title": {
+      "es": "Perfil de luz naranja",
+      "en": "Profile in Orange Light"
+    },
+    "image": "/images/fast_paintings/sketch_001.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El perfil oscuro se enciende con una franja naranja y puntos rojos; el gesto nace del contraste entre sombra y color.",
+      "en": "A dark profile catches an orange band and red dots; the gesture emerges from the meeting of shadow and color."
+    },
+    "order": 1,
+    "thumb": "/images/fast_paintings/thumbs/sketch_001.jpg"
+  },
+  {
+    "id": "sketch_002",
+    "title": {
+      "es": "Rostro de puntos",
+      "en": "Face of Dots"
+    },
+    "image": "/images/fast_paintings/sketch_002.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Las manchas blancas recorren rostro y cuello, convirtiendo un perfil sereno en una superficie de ritmo y textura.",
+      "en": "White marks travel across face and neck, turning a calm profile into a surface of rhythm and texture."
+    },
+    "order": 2,
+    "thumb": "/images/fast_paintings/thumbs/sketch_002.jpg"
+  },
+  {
+    "id": "sketch_003",
+    "title": {
+      "es": "Perfil de sombra",
+      "en": "Profile in Shadow"
+    },
+    "image": "/images/fast_paintings/sketch_003.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El cabello se agita sobre una silueta negra; unas pocas marcas bastan para sugerir rostro, hombro y movimiento.",
+      "en": "Hair flares above a black silhouette; a few marks are enough to suggest face, shoulder, and movement."
+    },
+    "order": 3,
+    "thumb": "/images/fast_paintings/thumbs/sketch_003.jpg"
+  },
+  {
+    "id": "sketch_004",
+    "title": {
+      "es": "El hombre del sombrero",
+      "en": "The Man in the Hat"
+    },
+    "image": "/images/fast_paintings/sketch_004.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Un sombrero ancho y dos acentos naranjas sostienen esta figura, dibujada con la economía de un encuentro fugaz.",
+      "en": "A wide hat and two orange accents hold this figure together, drawn with the economy of a fleeting encounter."
+    },
+    "order": 4,
+    "thumb": "/images/fast_paintings/thumbs/sketch_004.jpg"
+  },
+  {
+    "id": "sketch_005",
+    "title": {
+      "es": "Busto amarillo",
+      "en": "Yellow Bust"
+    },
+    "image": "/images/fast_paintings/sketch_005.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Amarillo y negro se enfrentan en un busto de perfil, donde los puntos rojos introducen una vibración inesperada.",
+      "en": "Yellow and black meet in a profile bust, where red dots bring an unexpected vibration."
+    },
+    "order": 5,
+    "thumb": "/images/fast_paintings/thumbs/sketch_005.jpg"
+  },
+  {
+    "id": "sketch_006",
+    "title": {
+      "es": "La sombra del rostro",
+      "en": "The Face in Shadow"
+    },
+    "image": "/images/fast_paintings/sketch_006.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El rostro casi desaparece en una masa oscura; su contorno mantiene viva la presencia de la figura.",
+      "en": "The face nearly disappears into darkness; its outline keeps the figure present."
+    },
+    "order": 6,
+    "thumb": "/images/fast_paintings/thumbs/sketch_006.jpg"
+  },
+  {
+    "id": "sketch_007",
+    "title": {
+      "es": "Mirada frontal",
+      "en": "A Direct Gaze"
+    },
+    "image": "/images/fast_paintings/sketch_007.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Un rostro mira de frente desde un campo claro, mientras los tonos ocres y naranjas calientan la expresión.",
+      "en": "A face looks straight ahead from a pale field as ochre and orange warm its expression."
+    },
+    "order": 7,
+    "thumb": "/images/fast_paintings/thumbs/sketch_007.jpg"
+  },
+  {
+    "id": "sketch_008",
+    "title": {
+      "es": "Rayas frente a los ojos",
+      "en": "Stripes Before the Eyes"
+    },
+    "image": "/images/fast_paintings/sketch_008.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Las bandas encendidas cruzan el perfil y discuten con el cabello negro; la cara parece llevar su propia señal.",
+      "en": "Bright bands cross the profile and meet the black hair; the face seems to carry its own sign."
+    },
+    "order": 8,
+    "thumb": "/images/fast_paintings/thumbs/sketch_008.jpg",
+    "categoryOrder": 8
+  },
+  {
+    "id": "sketch_009",
+    "title": {
+      "es": "Mirada de regreso",
+      "en": "A Look Back"
+    },
+    "image": "/images/fast_paintings/sketch_009.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una figura gira la cabeza sobre el hombro; la línea suelta captura el instante antes de que vuelva a marcharse.",
+      "en": "A figure turns over one shoulder; the loose line catches the instant before she moves on."
+    },
+    "order": 9,
+    "thumb": "/images/fast_paintings/thumbs/sketch_009.jpg"
+  },
+  {
+    "id": "sketch_010",
+    "title": {
+      "es": "Puntos sobre la piel",
+      "en": "Marks Across the Skin"
+    },
+    "image": "/images/fast_paintings/sketch_010.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Puntos oscuros cubren la cara y se mezclan con rayas rojas, dando al retrato una energía casi ceremonial.",
+      "en": "Dark dots cover the face and meet red stripes, giving the portrait an almost ceremonial energy."
+    },
+    "order": 10,
+    "thumb": "/images/fast_paintings/thumbs/sketch_010.jpg"
+  },
+  {
+    "id": "sketch_011",
+    "title": {
+      "es": "Sombrero de fuego",
+      "en": "Hat of Fire"
+    },
+    "image": "/images/fast_paintings/sketch_011.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El sombrero inclinado corona una figura hecha de amarillos, rojos y negros; el cuerpo parece avanzar fuera del papel.",
+      "en": "A tilted hat crowns a figure of yellow, red, and black; the body seems ready to step off the page."
+    },
+    "order": 11,
+    "thumb": "/images/fast_paintings/thumbs/sketch_011.jpg"
+  },
+  {
+    "id": "sketch_012",
+    "title": {
+      "es": "Perfil de cobre",
+      "en": "Copper Profile"
+    },
+    "image": "/images/fast_paintings/sketch_012.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El hombro naranja y las marcas blancas iluminan un perfil que se sostiene entre la línea rápida y la mancha.",
+      "en": "Orange shoulder and white marks light a profile held between swift line and broad color."
+    },
+    "order": 12,
+    "thumb": "/images/fast_paintings/thumbs/sketch_012.jpg"
+  },
+  {
+    "id": "sketch_013",
+    "title": {
+      "es": "Aleteo frente al rostro",
+      "en": "Flutter Before the Face"
+    },
+    "image": "/images/fast_paintings/sketch_013.jpg",
+    "category": "dibujo rápido",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una forma alada cruza la cara mientras pequeños insectos rodean la figura; la mirada permanece fija entre ambos mundos.",
+      "en": "A winged form crosses the face as small insects surround the figure; the gaze stays steady between both worlds."
+    },
+    "order": 13,
+    "thumb": "/images/fast_paintings/thumbs/sketch_013.jpg"
+  },
+  {
+    "id": "sketch_014",
+    "title": {
+      "es": "Mitad de luz",
+      "en": "Half in Light"
+    },
+    "image": "/images/fast_paintings/sketch_014.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "La luz divide un retrato frontal sin romperlo; una línea fina conserva la delicadeza de la expresión.",
+      "en": "Light divides a frontal portrait without breaking it; a fine line preserves the delicacy of the expression."
+    },
+    "order": 14,
+    "thumb": "/images/fast_paintings/thumbs/sketch_014.jpg"
+  },
+  {
+    "id": "sketch_015",
+    "title": {
+      "es": "Figura de líneas abiertas",
+      "en": "Figure in Open Lines"
+    },
+    "image": "/images/fast_paintings/sketch_015.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El torso surge de trazos interrumpidos y manchas grises; lo no dibujado participa tanto como la figura.",
+      "en": "A torso rises from broken lines and gray marks; the untouched paper is as active as the figure."
+    },
+    "order": 15,
+    "thumb": "/images/fast_paintings/thumbs/sketch_015.jpg"
+  },
+  {
+    "id": "sketch_016",
+    "title": {
+      "es": "Perfil en rojo y negro",
+      "en": "Profile in Red and Black"
+    },
+    "image": "/images/fast_paintings/sketch_016.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El rojo se concentra en el cuello de una silueta oscura, como si la figura llevara una chispa interior.",
+      "en": "Red gathers at the neck of a dark silhouette, as though the figure carried a spark within."
+    },
+    "order": 16,
+    "thumb": "/images/fast_paintings/thumbs/sketch_016.jpg"
+  },
+  {
+    "id": "sketch_017",
+    "title": {
+      "es": "Tres trazos rojos",
+      "en": "Three Red Strokes"
+    },
+    "image": "/images/fast_paintings/sketch_017.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Tres señales rojas cortan el perfil y despiertan el blanco y negro del retrato.",
+      "en": "Three red marks cross the profile and awaken the portrait's black and white."
+    },
+    "order": 17,
+    "thumb": "/images/fast_paintings/thumbs/sketch_017.jpg"
+  },
+  {
+    "id": "sketch_018",
+    "title": {
+      "es": "Rostro en penumbra",
+      "en": "Face in Half-Light"
+    },
+    "image": "/images/fast_paintings/sketch_018.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El perfil oscuro deja ver destellos de color y puntos sobre la piel; el resto queda entregado a la sombra.",
+      "en": "The dark profile reveals flashes of color and dots on the skin; the rest belongs to shadow."
+    },
+    "order": 18,
+    "thumb": "/images/fast_paintings/thumbs/sketch_018.jpg"
+  },
+  {
+    "id": "sketch_019",
+    "title": {
+      "es": "Rostro velado por rojo",
+      "en": "Face Veiled in Red"
+    },
+    "image": "/images/fast_paintings/sketch_019.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una franja roja tapa los ojos del perfil; la identidad se esconde y a la vez gana fuerza.",
+      "en": "A red band covers the profile's eyes; identity withdraws and becomes more forceful at once."
+    },
+    "order": 19,
+    "thumb": "/images/fast_paintings/thumbs/sketch_019.jpg"
+  },
+  {
+    "id": "sketch_020",
+    "title": {
+      "es": "Silueta sin ojos",
+      "en": "Silhouette Without Eyes"
+    },
+    "image": "/images/fast_paintings/sketch_020.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "La nariz y el mentón recortan la oscuridad; el retrato se reduce a lo indispensable.",
+      "en": "Nose and chin cut into darkness; the portrait is reduced to its essentials."
+    },
+    "order": 20,
+    "thumb": "/images/fast_paintings/thumbs/sketch_020.jpg"
+  },
+  {
+    "id": "sketch_021",
+    "title": {
+      "es": "Nuca y horizonte",
+      "en": "Nape and Horizon"
+    },
+    "image": "/images/fast_paintings/sketch_021.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El giro de la cabeza apenas se insinúa entre negro y gris, dejando al papel completar la figura.",
+      "en": "The turn of the head is barely suggested in black and gray, leaving the paper to complete the figure."
+    },
+    "order": 21,
+    "thumb": "/images/fast_paintings/thumbs/sketch_021.jpg"
+  },
+  {
+    "id": "sketch_022",
+    "title": {
+      "es": "Pez sobre el sombrero",
+      "en": "Fish Above the Hat"
+    },
+    "image": "/images/fast_paintings/sketch_022.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Un pez cruza la cabeza de una figura amarilla; el retrato abre un pequeño espacio para lo imposible.",
+      "en": "A fish crosses above a yellow figure's head; the portrait makes a little room for the impossible."
+    },
+    "order": 22,
+    "thumb": "/images/fast_paintings/thumbs/sketch_022.jpg"
+  },
+  {
+    "id": "sketch_023",
+    "title": {
+      "es": "Figura que se disuelve",
+      "en": "Figure Dissolving"
+    },
+    "image": "/images/fast_paintings/sketch_023.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Manchas negras y ocres deshacen el cuerpo sin borrar su presencia; el gesto queda suspendido.",
+      "en": "Black and ochre marks loosen the body without erasing its presence; the gesture remains suspended."
+    },
+    "order": 23,
+    "thumb": "/images/fast_paintings/thumbs/sketch_023.jpg"
+  },
+  {
+    "id": "sketch_024",
+    "title": {
+      "es": "Bestia entre barras",
+      "en": "Beast Between Bars"
+    },
+    "image": "/images/fast_paintings/sketch_024.jpg",
+    "category": "dibujo rápido",
+    "aspect": "landscape",
+    "description": {
+      "es": "Un animal negro de puntos blancos y rojos queda atravesado por dos barras ocres, entre juego y desafío.",
+      "en": "A black animal dotted white and red is crossed by two ochre bars, somewhere between play and defiance."
+    },
+    "order": 24,
+    "thumb": "/images/fast_paintings/thumbs/sketch_024.jpg"
+  },
+  {
+    "id": "sketch_025",
+    "title": {
+      "es": "Perfil amarillo",
+      "en": "Yellow Profile"
+    },
+    "image": "/images/fast_paintings/sketch_025.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una banda amarilla cubre los ojos del perfil y dialoga con la franja roja del vestido.",
+      "en": "A yellow band covers the profile's eyes and answers the red stripe of the garment."
+    },
+    "order": 25,
+    "thumb": "/images/fast_paintings/thumbs/sketch_025.jpg"
+  },
+  {
+    "id": "sketch_026",
+    "title": {
+      "es": "Máscara de puntos",
+      "en": "Mask of Dots"
+    },
+    "image": "/images/fast_paintings/sketch_026.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El rostro frontal reúne puntos amarillos, una barra negra y una boca blanca en una imagen de presencia rotunda.",
+      "en": "The frontal face gathers yellow dots, a black bar, and a white mouth into a striking presence."
+    },
+    "order": 26,
+    "thumb": "/images/fast_paintings/thumbs/sketch_026.jpg"
+  },
+  {
+    "id": "sketch_027",
+    "title": {
+      "es": "Luz en la nuca",
+      "en": "Light at the Nape"
+    },
+    "image": "/images/fast_paintings/sketch_027.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El cuello naranja ilumina una silueta negra; la dirección del cabello parece empujarla hacia adelante.",
+      "en": "An orange neck lights a black silhouette; the sweep of the hair seems to push it forward."
+    },
+    "order": 27,
+    "thumb": "/images/fast_paintings/thumbs/sketch_027.jpg"
+  },
+  {
+    "id": "sketch_028",
+    "title": {
+      "es": "La máscara roja",
+      "en": "The Red Mask"
+    },
+    "image": "/images/fast_paintings/sketch_028.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Los puntos rojos cubren el perfil y contrastan con dos trazos blancos sobre el hombro.",
+      "en": "Red dots cover the profile, set against two white strokes across the shoulder."
+    },
+    "order": 28,
+    "thumb": "/images/fast_paintings/thumbs/sketch_028.jpg"
+  },
+  {
+    "id": "sketch_029",
+    "title": {
+      "es": "Mirada desde el cabello",
+      "en": "A Gaze Through Hair"
+    },
+    "image": "/images/fast_paintings/sketch_029.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El cabello oscuro ocupa casi todo el cuadro, pero un ojo y una mejilla bastan para sostener el retrato.",
+      "en": "Dark hair fills almost the entire frame, yet one eye and a cheek are enough to hold the portrait."
+    },
+    "order": 29,
+    "thumb": "/images/fast_paintings/thumbs/sketch_029.jpg"
+  },
+  {
+    "id": "sketch_030",
+    "title": {
+      "es": "Sombrero magenta",
+      "en": "Magenta Hat"
+    },
+    "image": "/images/fast_paintings/sketch_030.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "La figura bajo el sombrero se hunde en sombra, mientras una mancha magenta le devuelve cuerpo y presencia.",
+      "en": "The hatted figure sinks into shadow while a magenta sweep restores body and presence."
+    },
+    "order": 30,
+    "thumb": "/images/fast_paintings/thumbs/sketch_030.jpg"
+  },
+  {
+    "id": "sketch_031",
+    "title": {
+      "es": "Sombrero en penumbra",
+      "en": "Hat in Half-Light"
+    },
+    "image": "/images/fast_paintings/sketch_031.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El sombrero negro se recorta sobre un torso de manchas cálidas; la figura parece surgir de la pintura.",
+      "en": "A black hat rises above a torso of warm marks; the figure seems to emerge from the paint."
+    },
+    "order": 31,
+    "thumb": "/images/fast_paintings/thumbs/sketch_031.jpg"
+  },
+  {
+    "id": "sketch_032",
+    "title": {
+      "es": "Perfil de franjas",
+      "en": "Striped Profile"
+    },
+    "image": "/images/fast_paintings/sketch_032.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Franjas rojas y amarillas recorren cara y hombro; el perfil se convierte en un mapa de color.",
+      "en": "Red and yellow stripes move across face and shoulder; the profile becomes a map of color."
+    },
+    "order": 32,
+    "thumb": "/images/fast_paintings/thumbs/sketch_032.jpg"
+  },
+  {
+    "id": "sketch_033",
+    "title": {
+      "es": "Rostro de señales",
+      "en": "Face of Signs"
+    },
+    "image": "/images/fast_paintings/sketch_033.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Barras rojas, puntos negros y amarillos interrumpen el rostro, pero no su gesto decidido.",
+      "en": "Red bars and black and yellow dots interrupt the face without weakening its determined expression."
+    },
+    "order": 33,
+    "thumb": "/images/fast_paintings/thumbs/sketch_033.jpg"
+  },
+  {
+    "id": "sketch_034",
+    "title": {
+      "es": "La sombra y el cuello",
+      "en": "Shadow and Neck"
+    },
+    "image": "/images/fast_paintings/sketch_034.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una silueta casi negra deja escapar destellos ocres en la cara y el pecho.",
+      "en": "An almost black silhouette lets flashes of ochre escape across face and chest."
+    },
+    "order": 34,
+    "thumb": "/images/fast_paintings/thumbs/sketch_034.jpg"
+  },
+  {
+    "id": "sketch_035",
+    "title": {
+      "es": "Ojos tras la franja roja",
+      "en": "Eyes Behind the Red Band"
+    },
+    "image": "/images/fast_paintings/sketch_035.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una máscara roja dirige la mirada al frente; puntos y líneas negras vuelven inquieto el rostro.",
+      "en": "A red mask directs the gaze forward; dots and black lines make the face restless."
+    },
+    "order": 35,
+    "thumb": "/images/fast_paintings/thumbs/sketch_035.jpg"
+  },
+  {
+    "id": "sketch_036",
+    "title": {
+      "es": "Máscara blanca",
+      "en": "White Mask"
+    },
+    "image": "/images/fast_paintings/sketch_036.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Los puntos blancos cubren el perfil oscuro y contrastan con el cabello levantado en todas direcciones.",
+      "en": "White dots cover a dark profile beneath hair that lifts in every direction."
+    },
+    "order": 36,
+    "thumb": "/images/fast_paintings/thumbs/sketch_036.jpg"
+  },
+  {
+    "id": "sketch_037",
+    "title": {
+      "es": "La franja y la hierba",
+      "en": "The Band and the Grass"
+    },
+    "image": "/images/fast_paintings/sketch_037.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una banda roja atraviesa la cara; abajo, trazos verdes convierten el busto en paisaje.",
+      "en": "A red band crosses the face; below, green strokes turn the bust into a landscape."
+    },
+    "order": 37,
+    "thumb": "/images/fast_paintings/thumbs/sketch_037.jpg"
+  },
+  {
+    "id": "sketch_038",
+    "title": {
+      "es": "Rostro de hilos rojos",
+      "en": "Face of Red Threads"
+    },
+    "image": "/images/fast_paintings/sketch_038.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "La mirada frontal emerge entre cabello negro, marcas rojas y una trama de puntos sobre la boca.",
+      "en": "A direct gaze emerges among black hair, red marks, and a web of dots across the mouth."
+    },
+    "order": 38,
+    "thumb": "/images/fast_paintings/thumbs/sketch_038.jpg"
+  },
+  {
+    "id": "sketch_039",
+    "title": {
+      "es": "Figura de marcas",
+      "en": "Figure of Marks"
+    },
+    "image": "/images/fast_paintings/sketch_039.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Puntos amarillos y rayas rojas animan un cuerpo en sombra, más cercano al gesto que al detalle.",
+      "en": "Yellow dots and red stripes animate a shadowed body, closer to gesture than detail."
+    },
+    "order": 39,
+    "thumb": "/images/fast_paintings/thumbs/sketch_039.jpg"
+  },
+  {
+    "id": "sketch_040",
+    "title": {
+      "es": "Nudo de color",
+      "en": "Knot of Color"
+    },
+    "image": "/images/fast_paintings/sketch_040.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Rojo, amarillo y azul se anudan alrededor de una figura; la forma humana persiste entre pinceladas rápidas.",
+      "en": "Red, yellow, and blue knot around a figure; the human form persists among swift strokes."
+    },
+    "order": 40,
+    "thumb": "/images/fast_paintings/thumbs/sketch_040.jpg"
+  },
+  {
+    "id": "sketch_041",
+    "title": {
+      "es": "Figura en tierra",
+      "en": "Earth-Toned Figure"
+    },
+    "image": "/images/fast_paintings/sketch_041.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una figura desnuda se lleva la mano a la frente; la línea suave conserva el peso del cuerpo y del pensamiento.",
+      "en": "A nude figure raises a hand to the forehead; soft lines hold the weight of body and thought."
+    },
+    "order": 41,
+    "thumb": "/images/fast_paintings/thumbs/sketch_041.jpg"
+  },
+  {
+    "id": "sketch_042",
+    "title": {
+      "es": "Sombrero en sombra",
+      "en": "Hat in Shadow"
+    },
+    "image": "/images/fast_paintings/sketch_042.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "El sombrero ancho y el abrigo oscuro forman una presencia enigmática, quebrada por marcas blancas.",
+      "en": "A wide hat and dark coat form an enigmatic presence, broken by white marks."
+    },
+    "order": 42,
+    "thumb": "/images/fast_paintings/thumbs/sketch_042.jpg"
+  },
+  {
+    "id": "sketch_043",
+    "title": {
+      "es": "El hombre rojo",
+      "en": "The Man in Red"
+    },
+    "image": "/images/fast_paintings/sketch_043.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Sombrero, chaqueta y rostro se encienden en rojo; unas líneas bastan para afirmar el personaje.",
+      "en": "Hat, coat, and face flare in red; a few lines are enough to establish the character."
+    },
+    "order": 43,
+    "thumb": "/images/fast_paintings/thumbs/sketch_043.jpg"
+  },
+  {
+    "id": "sketch_044",
+    "title": {
+      "es": "Cuatro pasos",
+      "en": "Four Passing Figures"
+    },
+    "image": "/images/fast_paintings/sketch_044.jpg",
+    "category": "dibujo rápido",
+    "aspect": "landscape",
+    "description": {
+      "es": "Cuatro figuras trazadas con rapidez comparten el papel sin perder la singularidad de cada postura.",
+      "en": "Four swiftly drawn figures share the page while keeping the individuality of each stance."
+    },
+    "order": 44,
+    "thumb": "/images/fast_paintings/thumbs/sketch_044.jpg"
+  },
+  {
+    "id": "sketch_045",
+    "title": {
+      "es": "Retrato en carbón",
+      "en": "Portrait in Charcoal"
+    },
+    "image": "/images/fast_paintings/sketch_045.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Un joven mira al frente en un retrato austero donde las sombras construyen el volumen del cuerpo.",
+      "en": "A young man faces forward in an austere portrait whose shadows give the body its volume."
+    },
+    "order": 45,
+    "thumb": "/images/fast_paintings/thumbs/sketch_045.jpg"
+  },
+  {
+    "id": "sketch_046",
+    "title": {
+      "es": "Dos cuerpos y una tela roja",
+      "en": "Two Bodies and a Red Cloth"
+    },
+    "image": "/images/fast_paintings/sketch_046.jpg",
+    "category": "dibujo rápido",
+    "aspect": "landscape",
+    "description": {
+      "es": "Dos figuras sostienen una tela roja; las líneas del cuerpo y los pliegues se responden en movimiento.",
+      "en": "Two figures hold a red cloth; the lines of their bodies answer the movement of its folds."
+    },
+    "order": 46,
+    "thumb": "/images/fast_paintings/thumbs/sketch_046.jpg"
+  },
+  {
+    "id": "sketch_047",
+    "title": {
+      "es": "Figura entre ráfagas",
+      "en": "Figure Among Strokes"
+    },
+    "image": "/images/fast_paintings/sketch_047.jpg",
+    "category": "dibujo rápido",
+    "aspect": "portrait",
+    "description": {
+      "es": "Una figura atraviesa pinceladas blancas, rojas y amarillas; el cuerpo aparece y desaparece dentro del movimiento.",
+      "en": "A figure moves through white, red, and yellow strokes; the body appears and disappears within their motion."
+    },
+    "order": 47,
+    "thumb": "/images/fast_paintings/thumbs/sketch_047.jpg"
+  },
+  {
+    "id": "obra-out-30",
+    "title": {
+      "es": "El Vestidor",
+      "en": "The Dressing Room"
+    },
+    "year": 1983,
+    "medium": {
+      "es": "Óleo sobre lienzo",
+      "en": "Oil on canvas"
+    },
+    "dimensions": "70 × 100 cm",
+    "image": "/images/artworks/artwork_026.jpg",
+    "category": "dibujo rápido",
+    "aspect": "landscape",
+    "description": {
+      "es": "Una íntima escena de interior marcada por una profunda paleta de grises fríos. Una figura humana, de espaldas, forcejea con una prenda frente a un espejo, sugiriendo un momento de transición privada. En la pared, recortes y cuadros –incluyendo el rostro inconfundible de un ícono de Hollywood– acompañan una tabla de planchar, construyendo una narrativa nostálgica y solitaria.",
+      "en": "An intimate interior scene marked by a deep palette of cool grays. A human figure, seen from behind, struggles with a garment in front of a mirror, suggesting a moment of private transition. On the wall, clippings and pictures—including the unmistakable face of a Hollywood icon—accompany an ironing board, building a nostalgic and solitary narrative."
+    },
+    "status": "vendido",
+    "order": 26,
+    "thumb": "/images/artworks/thumbs/artwork_026.jpg",
+    "categoryOrder": 48
+  }
+]

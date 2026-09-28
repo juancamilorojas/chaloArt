@@ -7,11 +7,11 @@
     },
     "year": 2006,
     "medium": {
-      "es": "Acrílico sobre Papel",
-      "en": "Acrylic on paper"
+      "es": "Cerigrafía",
+      "en": "Screen Printing"
     },
-    "dimensions": "3637 × 2496 px",
-    "image": "/images/artworks/painting_001.JPEG",
+    "dimensions": "120× 90 cm",
+    "image": "/images/artworks/artwork_001.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -19,7 +19,9 @@
       "en": "This dynamic acrylic work captures magical realism. Fractured, cubist-inspired planes of crimson and ochre frame a reclining figure lost in reverie. Cutting through this chaotic geometry is a swarm of vibrant yellow butterflies—the iconic motif of Mauricio Babilonia—symbolizing an all-consuming, otherworldly passion that blurs the line between dreams and reality."
     },
     "status": "vendido",
-    "order": 1
+    "order": 1,
+    "thumb": "/images/artworks/thumbs/artwork_001.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "painting_002",
@@ -29,11 +31,11 @@
     },
     "year": 2023,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "1788 × 1758 px",
-    "image": "/images/artworks/painting_002.JPEG",
+    "dimensions": "1400 × 1700 cm",
+    "image": "/images/artworks/artwork_002.jpg",
     "category": "pintura original",
     "aspect": "portrait",
     "description": {
@@ -41,7 +43,9 @@
       "en": "This vibrant contemporary still life celebrates tropical abundance through intense colors and warm, enveloping light. Lush heliconias and hibiscus flowers dominate the center of the composition, anchoring a rich offering of fruits, bread, and everyday foods. The artist contrasts the organic forms of nature with geometric, fragmented backgrounds, creating a dynamic and slightly surreal atmosphere that transforms the traditional still life into an explosion of vitality."
     },
     "status": "disponible",
-    "order": 2
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_002.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "painting_003",
@@ -49,21 +53,23 @@
       "es": "Sueño en Tonos Fríos",
       "en": "Dream in Cool Tones"
     },
-    "year": 2018,
+    "year": 2013,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "3540 × 3525 px",
-    "image": "/images/artworks/painting_003.JPG",
+    "dimensions": "120 × 120 cm",
+    "image": "/images/artworks/artwork_003.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
-      "es": "Esta envolvente composición semi-abstracta sumerge al espectador en una atmósfera onírica dominada por azules profundos y eléctricos. Un bodegón tradicional —destacando una botella de vino, cuencos decorados y una llamativa heliconia roja— se deconstruye mediante planos geométricos superpuestos y pinceladas expresivas. El dramático contraste entre la fría oscuridad del primer plano y la luminosidad cálida que asoma en el horizonte crea un paisaje surrealista, donde los objetos cotidianos parecen flotar entre la realidad y la imaginación.",
+      "es": "Esta envolvente composición semi-abstracta sumerge al espectador en una atmósfera onírica dominada por azules profundos y eléctricos. Un bodegón tradicional se deconstruye mediante planos geométricos superpuestos y pinceladas expresivas. El dramático contraste entre la fría oscuridad del primer plano y la luminosidad cálida que asoma en el horizonte crea un paisaje surrealista, donde los objetos cotidianos parecen flotar entre la realidad y la imaginación.",
       "en": "This immersive semi-abstract composition plunges the viewer into a dreamlike atmosphere dominated by deep, electric blues. A traditional still life—highlighting a wine bottle, decorative bowls, and a striking red heliconia—is deconstructed through overlapping geometric planes and expressive brushstrokes. The dramatic contrast between the cool darkness of the foreground and the warm luminosity peeking from the horizon creates a surreal landscape where everyday objects seem to float between reality and imagination."
     },
-    "status": "disponible",
-    "order": 3
+    "status": "vendido",
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_003.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "painting_004",
@@ -73,41 +79,45 @@
     },
     "year": 2021,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "2056 × 1530 px",
-    "image": "/images/artworks/painting_004.JPEG",
+    "dimensions": "90 × 130 cm",
+    "image": "/images/artworks/artwork_004.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
-      "es": "Esta fascinante obra contemporánea fusiona la tradición clásica del bodegón con la iconografía del arte pop y la era digital. Sobre un plano de vibrantes tonos aguamarina y azul, el artista dispone elementos tradicionales —vasijas, frutas y arreglos florales— que conviven en un paisaje surrealista con símbolos modernos, como logotipos de redes sociales y tipografía de revistas. La inclusión de fragmentos pegados con cinta, junto con el recurrente motivo de las mariposas amarillas, crea un cautivador collage visual que invita a reflexionar sobre cómo la tecnología y la hiperconexión se entrelazan con nuestra intimidad y memoria cultural.",
+      "es": "Esta fascinante obra contemporánea fusiona la tradición clásica del bodegón con la iconografía del arte pop y la era digital. Sobre un plano de vibrantes tonos aguamarina y azul, el artista dispone elementos tradicionales que conviven en un paisaje surrealista con símbolos modernos, como logotipos de redes sociales y tipografía de revistas. La inclusión de fragmentos pegados con cinta, junto con el recurrente motivo de las mariposas amarillas, crea un cautivador collage visual que invita a reflexionar sobre cómo la tecnología y la hiperconexión se entrelazan con nuestra intimidad y memoria cultural.",
       "en": "This fascinating contemporary work merges the classical tradition of the still life with the iconography of pop art and the digital age. On a plane of vibrant aquamarine and blue tones, the artist arranges traditional elements—vases, fruits, and floral arrangements—that coexist in a surreal landscape with modern symbols, such as social media logos and magazine typography. The inclusion of fragments taped together, along with the recurring motif of yellow butterflies, creates a captivating visual collage that invites reflection on how technology and hyperconnection intertwine with our intimacy and cultural memory."
     },
     "status": "vendido",
-    "order": 4
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_004.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "painting_005",
     "title": {
-      "es": "Geometría del Viento",
-      "en": "Geometry of the Wind"
+      "es": "Los Mares del Sur",
+      "en": "The South Seas"
     },
     "year": 2023,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "2049 × 1533 px",
-    "image": "/images/artworks/painting_005.JPEG",
+    "dimensions": "90 × 120 cm",
+    "image": "/images/artworks/artwork_005.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Esta dinámica composición marca una audaz incursión en la abstracción geométrica y el paisaje surrealista. Dominada por una intensa paleta de azules profundos, verdes esmeralda y acentos en rojo vibrante, la obra evoca la energía cinética de un entorno costero o urbano en constante transformación. Trazos blancos curvos y veloces atraviesan los bloques de color estructurados, sugiriendo el paso del viento o el movimiento del agua. El artista logra un equilibrio magistral entre el caos expresivo y el orden arquitectónico, invitando al espectador a descifrar este espacio visual multidimensional.",
       "en": "This dynamic composition marks a bold foray into geometric abstraction and surreal landscape. Dominated by an intense palette of deep blues, emerald greens, and vibrant red accents, the work evokes the kinetic energy of a constantly transforming coastal or urban environment. Fast, curved white strokes traverse the structured blocks of color, suggesting the passage of wind or the movement of water. The artist achieves a masterful balance between expressive chaos and architectural order, inviting the viewer to decipher this multidimensional visual space."
     },
-    "status": "vendido",
-    "order": 5
+    "status": "disponible",
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_005.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "painting_006",
@@ -115,13 +125,13 @@
       "es": "Memoria en la Tierra Roja",
       "en": "Memory in the Red Earth"
     },
-    "year": 2000,
+    "year": 2010,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "1610 × 1600 px",
-    "image": "/images/artworks/painting_006.png",
+    "dimensions": "120 × 130 cm",
+    "image": "/images/artworks/artwork_006.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -129,7 +139,9 @@
       "en": "This work immerses the viewer in a mystical landscape of terracotta tones and intense reds, crowned by celestial elements. In the center, a geometric and multicolored structure acts as a canvas for a series of black silhouettes evoking petroglyphs and pre-Columbian motifs. The artist masterfully intertwines his characteristic geometric abstraction with ancestral memory, creating a visual bridge between the mythical past and contemporary expression in a warm and enigmatic atmosphere."
     },
     "status": "vendido",
-    "order": 6
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_006.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "painting_007",
@@ -137,13 +149,13 @@
       "es": "La casa en el aire",
       "en": "The house in the air"
     },
-    "year": 2024,
+    "year": 2010,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "1210 × 1214 px",
-    "image": "/images/artworks/painting_007.png",
+    "dimensions": "140 × 140 cm",
+    "image": "/images/artworks/artwork_007.jpg",
     "category": "pintura original",
     "aspect": "portrait",
     "description": {
@@ -151,7 +163,9 @@
       "en": "This dynamic acrylic work captures magical realism. Fractured, cubist-inspired planes of crimson and ochre frame a reclining figure lost in reverie. Cutting through this chaotic geometry is a swarm of vibrant yellow butterflies—the iconic motif of Mauricio Babilonia—symbolizing an all-consuming, otherworldly passion that blurs the line between dreams and reality."
     },
     "status": "vendido",
-    "order": 7
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_007.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "obra-out-11",
@@ -159,21 +173,23 @@
       "es": "Ritmo Ancestral",
       "en": "Ancestral Rhythm"
     },
-    "year": 2015,
+    "year": 2004,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "4096 × 2304 px",
-    "image": "/images/artworks/out_11.png",
+    "dimensions": "170 × 220 cm",
+    "image": "/images/artworks/artwork_008.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
-      "es": "En esta vibrante y enérgica composición, diversas figuras entrelazan la mitología y la celebración en un baile surrealista. El rojo carmesí inunda el plano, enmarcando personajes estilizados —un lagarto antropomórfico, un esqueleto místico y figuras con rostros tribales— que convergen al ritmo del tambor central. La obra es una explosión cromática que rinde homenaje a las raíces folclóricas y la imaginación primigenia.",
+      "es": "En esta vibrante y enérgica composición, diversas figuras entrelazan la mitología y la celebración en un baile surrealista. El rojo carmesí inunda el plano, enmarcando personajes estilizados de las fiestas en el caribe, que convergen al ritmo del tambor central. La obra es una explosión cromática que rinde homenaje a las raíces folclóricas y la imaginación primigenia.",
       "en": "In this vibrant and energetic composition, diverse figures intertwine mythology and celebration in a surreal dance. Crimson red floods the plane, framing stylized characters—an anthropomorphic lizard, a mystical skeleton, and figures with tribal faces—converging to the rhythm of the central drum. The work is a chromatic explosion that pays homage to folkloric roots and primal imagination."
     },
-    "status": "disponible",
-    "order": 8
+    "status": "vendido",
+    "order": 8,
+    "thumb": "/images/artworks/thumbs/artwork_008.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "obra-out-12",
@@ -181,13 +197,13 @@
       "es": "Fragmentos del Horizonte",
       "en": "Fragments of the Horizon"
     },
-    "year": 2019,
+    "year": 2006,
     "medium": {
-      "es": "Acrílico sobre lienzo",
+      "es": "Acrílico",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "1250 × 898 px",
-    "image": "/images/artworks/out_12.png",
+    "dimensions": "120 × 70 cm",
+    "image": "/images/artworks/artwork_009.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -195,7 +211,9 @@
       "en": "A bold abstraction that plays with spatial depth and intense textures. Cold tones of cobalt blue and green contrast sharply with flashes of solar yellow and red, creating a fragmented topography. The color areas seem to float and collide, suggesting a dreamlike landscape or a divided memory captured in the moment of its reconstruction."
     },
     "status": "vendido",
-    "order": 9
+    "order": 1,
+    "thumb": "/images/artworks/thumbs/artwork_009.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "obra-out-13",
@@ -208,16 +226,18 @@
       "es": "Acrílico",
       "en": "Acrylic"
     },
-    "dimensions": "1334 × 992 px",
-    "image": "/images/artworks/out_13.png",
+    "dimensions": "120 × 70 cm",
+    "image": "/images/artworks/artwork_010.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Sumergida en una atmósfera crepuscular, esta obra reinventa la naturaleza muerta con un dramatismo contemporáneo. Una exótica Ave del Paraíso irrumpe en un entorno oscuro de matices azules y grises, sus puntas naranjas destellando como fuego en la penumbra. Pinceladas expresivas y líneas difusas borran los contornos de la habitación, otorgando a la composición un aura misteriosa y etérea.",
       "en": "Immersed in a twilight atmosphere, this work reinvents the still life with contemporary drama. An exotic Bird of Paradise bursts into a dark environment of blue and gray hues, its orange tips flashing like fire in the gloom. Expressive brushstrokes and blurred lines erase the contours of the room, giving the composition a mysterious and ethereal aura."
     },
-    "status": "disponible",
-    "order": 10
+    "status": "vendido",
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_010.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-14",
@@ -225,13 +245,13 @@
       "es": "Caos Estructurado",
       "en": "Structured Chaos"
     },
-    "year": 2022,
+    "year": 2006,
     "medium": {
       "es": "Técnica mixta",
       "en": "Mixed media"
     },
-    "dimensions": "1602 × 792 px",
-    "image": "/images/artworks/out_14.png",
+    "dimensions": "130 × 100 cm",
+    "image": "/images/artworks/artwork_011.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -239,7 +259,9 @@
       "en": "A captivating abstract landscape submerged in a deep sea of maroon. Disordered geometric elements, golden flashes, and abrupt shadows construct a dimension that seems to defy gravity. The viewer is invited to traverse these structures either in ruin or in formation, feeling the latent tension in the dominant warm palette."
     },
     "status": "vendido",
-    "order": 11
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_011.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-15",
@@ -247,21 +269,23 @@
       "es": "Habitación Roja",
       "en": "Red Room"
     },
-    "year": 2020,
+    "year": 2005,
     "medium": {
       "es": "Acrílico",
       "en": "Acrylic"
     },
-    "dimensions": "2616 × 1084 px",
-    "image": "/images/artworks/out_15.png",
+    "dimensions": "180 × 70 cm",
+    "image": "/images/artworks/artwork_012.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Esta composición panorámica evoca el interior de un espacio descompuesto en sus geometrías básicas. Inundado por tonos rojos, naranjas y negros intensos, el lienzo sugiere estantes, luces y pilares distorsionados por un lente surrealista. El uso de la perspectiva forzada y bloques de color audaces captura la esencia de un lugar habitado pero metafísicamente inestable.",
       "en": "This panoramic composition evokes the interior of a space decomposed into its basic geometries. Flooded with intense reds, oranges, and blacks, the canvas suggests shelves, lights, and pillars distorted by a surreal lens. The use of forced perspective and bold color blocks captures the essence of a place inhabited yet metaphysically unstable."
     },
-    "status": "disponible",
-    "order": 12
+    "status": "vendido",
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_012.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-16",
@@ -269,13 +293,13 @@
       "es": "Estructuras Latentes",
       "en": "Latent Structures"
     },
-    "year": 2021,
+    "year": 2008,
     "medium": {
       "es": "Técnica mixta",
       "en": "Mixed media"
     },
-    "dimensions": "1358 × 932 px",
-    "image": "/images/artworks/out_16.png",
+    "dimensions": "70 × 100 ",
+    "image": "/images/artworks/artwork_013.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -283,29 +307,33 @@
       "en": "A lattice of cold and architectural forms where petrol blues and oceanic greens engulf dark urban contours. Interspersed with warm accents of interior lights and orange incandescences, the canvas suggests the vitality that resists within a silent megastructure or a nocturnal sawmill."
     },
     "status": "vendido",
-    "order": 13
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_013.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-17",
     "title": {
-      "es": "Ciudad Flotante",
+      "es": "cocinando al lado del mar",
       "en": "Floating City"
     },
-    "year": 2023,
+    "year": 2015,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "808 × 814 px",
-    "image": "/images/artworks/out_17.png",
+    "dimensions": "120 × 90 px",
+    "image": "/images/artworks/artwork_014.jpg",
     "category": "pintura original",
     "aspect": "portrait",
     "description": {
-      "es": "A través de volúmenes fracturados y contrastes dramáticos, esta obra esboza una metrópolis que parece emerger del subconsciente. Bloques habitacionales de colores pálidos chocan con la profundidad del azul oscuro y el magenta vibrante, transmitiendo una sensación de melancolía urbana e insomnio metropolitano fragmentado.",
+      "es": "A través de volúmenes fracturados y contrastes dramáticos, esta obra esboza una ventana que parece emerger del subconsciente. Una cocina de colores pálidos chocan con la profundidad del azul oscuro y el magenta vibrante, transmitiendo una sensación de melancolía e insomnio fragmentado.",
       "en": "Through fractured volumes and dramatic contrasts, this work sketches a metropolis that seems to emerge from the subconscious. Pale-colored housing blocks clash with the depth of dark blue and vibrant magenta, conveying a sense of urban melancholy and fragmented metropolitan insomnia."
     },
-    "status": "disponible",
-    "order": 14
+    "status": "vendido",
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_014.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-18",
@@ -313,13 +341,13 @@
       "es": "El Portal Abierto",
       "en": "The Open Portal"
     },
-    "year": 2018,
+    "year": 2004,
     "medium": {
-      "es": "Acrílico sobre lienzo",
+      "es": "Acrílico",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "940 × 704 px",
-    "image": "/images/artworks/out_18.png",
+    "dimensions": "120 × 90 cm",
+    "image": "/images/artworks/artwork_015.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -327,7 +355,9 @@
       "en": "Dominated by swept whites and a visceral energy, this abstract piece guides the gaze through thick layers of carmine and ochre towards an enigmatic circular opening. The balance between the empty space at the top and the geological density at the bottom reflects the moment when the physical world reveals a passage to another dimension."
     },
     "status": "vendido",
-    "order": 15
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_015.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-19",
@@ -335,13 +365,13 @@
       "es": "Vestigios de la Noche",
       "en": "Vestiges of the Night"
     },
-    "year": 2022,
+    "year": 2006,
     "medium": {
       "es": "Técnica mixta",
       "en": "Mixed media"
     },
-    "dimensions": "1290 × 972 px",
-    "image": "/images/artworks/out_19.png",
+    "dimensions": "120 × 100 cm",
+    "image": "/images/artworks/artwork_016.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -349,7 +379,9 @@
       "en": "A complex visual weave where the organic and the industrial converge hopelessly under a nocturnal veil. Geometric yellow and blue zones flash in contrast with the deep violet shadows. The artist plays with multiple horizons and erased vanishing points, illustrating the modern scars imposed on ancestral landscapes."
     },
     "status": "vendido",
-    "order": 16
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_016.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-2",
@@ -357,13 +389,13 @@
       "es": "Paisaje Fragmentado",
       "en": "Fragmented Landscape"
     },
-    "year": 2018,
+    "year": 2009,
     "medium": {
       "es": "Acrílico sobre lienzo",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "4096 × 3290 px",
-    "image": "/images/artworks/out_2.png",
+    "dimensions": "120 × 90 cm",
+    "image": "/images/artworks/artwork_017.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -371,7 +403,9 @@
       "en": "An abstract composition evoking a deconstructed urban or coastal landscape. Cool tones of blue and green intersect with warm touches of yellow and red, while semi-circular bowls and architectural structures merge into a dynamic cubist space."
     },
     "status": "vendido",
-    "order": 17
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_017.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-20",
@@ -379,21 +413,23 @@
       "es": "Facciones Deshechas",
       "en": "Undone Features"
     },
-    "year": 2020,
+    "year": 2000,
     "medium": {
       "es": "Acrílico",
       "en": "Acrylic"
     },
-    "dimensions": "1308 × 972 px",
-    "image": "/images/artworks/out_20.png",
+    "dimensions": "120 × 70 cm",
+    "image": "/images/artworks/artwork_018.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Una abstracción sumamente lírica que insinúa una fisonomía desmoronándose o naciendo de entre amplios brochazos de color. Curvas blancas, azules marinos pesados y rojos pasión se doblan sobre sí mismos como papel en pleno origami cromático. La firma incrustada se convierte ella misma en parte del engranaje visual de esta identidad fragmentada.",
       "en": "A highly lyrical abstraction that hints at a physiognomy crumbling or being born from broad brushstrokes of color. White curves, heavy navy blues, and passion reds fold back on themselves like paper in full chromatic origami. The embedded signature becomes part of the visual machinery of this fragmented identity."
     },
-    "status": "disponible",
-    "order": 18
+    "status": "vendido",
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_018.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-23",
@@ -401,13 +437,13 @@
       "es": "Colisión Cromática",
       "en": "Chromatic Collision"
     },
-    "year": 2021,
+    "year": 2004,
     "medium": {
       "es": "Acrílico",
       "en": "Acrylic"
     },
-    "dimensions": "4096 × 3058 px",
-    "image": "/images/artworks/out_23.png",
+    "dimensions": "100 × 70 cm",
+    "image": "/images/artworks/artwork_019.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -415,7 +451,9 @@
       "en": "A vibrant explosion of geometric shapes and pure colors that challenge the static nature of the canvas. Bold blocks of red, orange, and yellow intersect with sharp whites and deep darks, creating a visual dynamism reminiscent of synthetic cubism. The tension of the strokes suggests an instant captured in full movement."
     },
     "status": "vendido",
-    "order": 19
+    "order": 1,
+    "thumb": "/images/artworks/thumbs/artwork_019.jpg",
+    "categoryOrder": 1
   },
   {
     "id": "obra-out-24",
@@ -423,21 +461,23 @@
       "es": "Naturaleza Muerta en Azul",
       "en": "Still Life in Blue"
     },
-    "year": 2019,
+    "year": 2003,
     "medium": {
       "es": "Técnica mixta",
       "en": "Mixed media"
     },
-    "dimensions": "4096 × 2946 px",
-    "image": "/images/artworks/out_24.png",
+    "dimensions": "70 × 100 cm",
+    "image": "/images/artworks/artwork_020.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Un bodegón contemporáneo sumergido en una densa paleta de azules nocturnos y verdes esmeralda. Botellas, copas y objetos cotidianos descansan sobre una mesa, delineados apenas por sutiles pinceladas de luz amarilla y blanca. La atmósfera onírica y melancólica difumina la frontera entre la abstracción y la figuración, invitando a la introspección.",
       "en": "A contemporary still life submerged in a dense palette of nocturnal blues and emerald greens. Bottles, glasses, and everyday objects rest on a table, barely outlined by subtle brushstrokes of yellow and white light. The dreamlike and melancholic atmosphere blurs the boundary between abstraction and figuration, inviting introspection."
     },
-    "status": "disponible",
-    "order": 20
+    "status": "vendido",
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_020.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-25",
@@ -445,13 +485,13 @@
       "es": "El Salto del Salmón",
       "en": "The Salmon's Leap"
     },
-    "year": 2022,
+    "year": 2004,
     "medium": {
-      "es": "Acrílico sobre lienzo",
+      "es": "Acrílico",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "4096 × 3058 px",
-    "image": "/images/artworks/out_25.png",
+    "dimensions": "120 × 70 cm",
+    "image": "/images/artworks/artwork_021.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -459,7 +499,9 @@
       "en": "The grace and power of nature are encapsulated in this dynamic portrait of a salmon in full ascent. Contrasting radically with an abstract background of aquatic blues and turquoises, the scarlet red of the fish commands all attention. The gestural brushstrokes surrounding it simulate the momentum of the water and the vital effort of the animal."
     },
     "status": "vendido",
-    "order": 21
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_021.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-26",
@@ -472,16 +514,18 @@
       "es": "Óleo sobre lienzo",
       "en": "Oil on canvas"
     },
-    "dimensions": "3644 × 3290 px",
-    "image": "/images/artworks/out_26.png",
+    "dimensions": "120 × 90 cm",
+    "image": "/images/artworks/artwork_022.jpg",
     "category": "pintura original",
     "aspect": "square",
     "description": {
       "es": "Una obra realista impregnada de nostalgia cálida que rinde tributo a la vida cotidiana. Bañada por una iluminación casi sepia, la cocina revela su historia a través de utensilios gastados: cuchillos colgantes, un viejo rallador, ollas metálicas y un grifo rústico. El impecable manejo de sombras y reflejos metálicos otorga a los objetos una presencia táctil impecable.",
       "en": "A realistic work imbued with warm nostalgia that pays tribute to everyday life. Bathed in almost sepia lighting, the kitchen reveals its history through worn utensils: hanging knives, an old grater, metal pots, and a rustic faucet. The impeccable handling of shadows and metallic reflections gives the objects an impeccable tactile presence."
     },
-    "status": "disponible",
-    "order": 22
+    "status": "vendido",
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_022.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-27",
@@ -495,7 +539,7 @@
       "en": "Ink and charcoal"
     },
     "dimensions": "2914 × 3936 px",
-    "image": "/images/artworks/out_27.png",
+    "image": "/images/artworks/artwork_023.jpg",
     "category": "obra en papel",
     "aspect": "portrait",
     "description": {
@@ -503,7 +547,8 @@
       "en": "A meticulously detailed black and white drawing that captures the silent essence of rural life. The wooden threshold frames a deep darkness where subtle details of a humble interior peek through. Outside, clothes drying in the wind, a shovel, and drawings pinned to the wall tell stories of effort and memory with remarkable technical precision."
     },
     "status": "vendido",
-    "order": 23
+    "order": 23,
+    "thumb": "/images/artworks/thumbs/artwork_023.jpg"
   },
   {
     "id": "obra-out-28",
@@ -517,7 +562,7 @@
       "en": "Graphite pencil on paper"
     },
     "dimensions": "4096 × 2816 px",
-    "image": "/images/artworks/out_28.png",
+    "image": "/images/artworks/artwork_024.jpg",
     "category": "obra en papel",
     "aspect": "landscape",
     "description": {
@@ -525,7 +570,8 @@
       "en": "A detailed chiaroscuro study in graphite portraying the interior of a rustic washroom or kitchen. Natural light filters through two small square windows, subtly illuminating the texture of the floorboards, the wooden workbench, and everyday objects like ceramics and hanging clothes, creating an atmosphere of timeless stillness."
     },
     "status": "vendido",
-    "order": 24
+    "order": 24,
+    "thumb": "/images/artworks/thumbs/artwork_024.jpg"
   },
   {
     "id": "obra-out-29",
@@ -533,43 +579,23 @@
       "es": "Sobre el Fregadero",
       "en": "Above the Sink"
     },
-    "year": 1995,
+    "year": 1987,
     "medium": {
-      "es": "Óleo sobre lienzo",
+      "es": "Cerigrafía",
       "en": "Oil on canvas"
     },
-    "dimensions": "4096 × 2962 px",
-    "image": "/images/artworks/out_29.png",
+    "dimensions": "120 × 90 cm",
+    "image": "/images/artworks/artwork_025.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Una composición pictórica rica en texturas que exalta los objetos de una cocina clásica. Cuchillos, coladores, cafeteras de metal y un rallador de queso se distribuyen en una pared de tonos turquesa envejecido. El estilo fusiona el realismo representativo con una aplicación de color vibrante e impasto ligero, otorgando carácter a los utensilios desgastados.",
       "en": "A pictorially rich composition that exalts the objects of a classic kitchen. Knives, strainers, metal coffee pots, and a cheese grater are arranged on a wall of aged turquoise tones. The style fuses representational realism with vibrant color application and light impasto, giving character to the worn utensils."
     },
-    "status": "disponible",
-    "order": 25
-  },
-  {
-    "id": "obra-out-30",
-    "title": {
-      "es": "El Vestidor",
-      "en": "The Dressing Room"
-    },
-    "year": 1982,
-    "medium": {
-      "es": "Óleo sobre lienzo",
-      "en": "Oil on canvas"
-    },
-    "dimensions": "4096 × 2650 px",
-    "image": "/images/artworks/out_30.png",
-    "category": "pintura original",
-    "aspect": "landscape",
-    "description": {
-      "es": "Una íntima escena de interior marcada por una profunda paleta de grises fríos. Una figura humana, de espaldas, forcejea con una prenda frente a un espejo, sugiriendo un momento de transición privada. En la pared, recortes y cuadros –incluyendo el rostro inconfundible de un ícono de Hollywood– acompañan una tabla de planchar, construyendo una narrativa nostálgica y solitaria.",
-      "en": "An intimate interior scene marked by a deep palette of cool grays. A human figure, seen from behind, struggles with a garment in front of a mirror, suggesting a moment of private transition. On the wall, clippings and pictures—including the unmistakable face of a Hollywood icon—accompany an ironing board, building a nostalgic and solitary narrative."
-    },
     "status": "vendido",
-    "order": 26
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_025.jpg",
+    "categoryOrder": 4
   },
   {
     "id": "obra-out-31",
@@ -579,11 +605,11 @@
     },
     "year": 2004,
     "medium": {
-      "es": "Acrílico sobre lienzo",
+      "es": "Acrílico",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "3994 × 3998 px",
-    "image": "/images/artworks/out_31.png",
+    "dimensions": "70 × 70 cm",
+    "image": "/images/artworks/artwork_027.jpg",
     "category": "pintura original",
     "aspect": "square",
     "description": {
@@ -591,7 +617,9 @@
       "en": "A markedly surrealist work where a female silhouette rests at the base while an outstretched hand, tattooed with numbers and esoteric symbols, floats toward the viewer. The imposing figure of a rooster on the left and intertwined abstract shapes in rich blue, red, and golden tones create a cryptic map of dreams or the subconscious."
     },
     "status": "vendido",
-    "order": 27
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_027.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-32",
@@ -604,16 +632,18 @@
       "es": "Acrílico y óleo sobre lienzo",
       "en": "Acrylic and oil on canvas"
     },
-    "dimensions": "2182 × 1518 px",
-    "image": "/images/artworks/out_32.png",
+    "dimensions": "70 × 100 cm",
+    "image": "/images/artworks/artwork_028.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Una desconcertante obra que cruza el expresionismo con el pop art de los cincuenta. Un hombre sombrío con sombrero vigila junto a un pez monumental suspendido, enmarcado por una oscura silueta anidando un rojo y llamativo blanco de tiro al blanco. Las pinceladas borrosas distorsionan la identidad de la figura, sumergiendo al observador en una narrativa enigmática de intriga y surrealismo urbano.",
       "en": "A disconcerting work that crosses expressionism with 1950s pop art. A shadowy man in a hat stands watch beside a monumental suspended fish, framed by a dark silhouette nesting a striking red target. Blurred brushstrokes distort the figure's identity, plunging the viewer into an enigmatic narrative of intrigue and urban surrealism."
     },
-    "status": "disponible",
-    "order": 28
+    "status": "vendido",
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_028.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-33",
@@ -627,7 +657,7 @@
       "en": "Mixed media (collage and acrylic)"
     },
     "dimensions": "4096 × 3048 px",
-    "image": "/images/artworks/out_33.png",
+    "image": "/images/artworks/artwork_029.jpg",
     "category": "mixta",
     "aspect": "landscape",
     "description": {
@@ -635,7 +665,8 @@
       "en": "A bold collision of pop iconography and abstract expressionism. The unmistakable face of Marilyn Monroe emerges rhythmically amidst fierce brushstrokes, text clippings ('Art', 'LOVE'), and gestural abstractions. The saturated palette and chaotic energy pay homage to mass culture through a critical and emotional lens."
     },
     "status": "disponible",
-    "order": 29
+    "order": 29,
+    "thumb": "/images/artworks/thumbs/artwork_029.jpg"
   },
   {
     "id": "obra-out-34",
@@ -649,7 +680,7 @@
       "en": "Oil and photography"
     },
     "dimensions": "4096 × 2664 px",
-    "image": "/images/artworks/out_34.png",
+    "image": "/images/artworks/artwork_030.jpg",
     "category": "mixta",
     "aspect": "landscape",
     "description": {
@@ -657,7 +688,8 @@
       "en": "A heavily dramatic and cinematic piece where a figure lies prostrate against an unfathomable void, wearing an enigmatically marked t-shirt. The raking light casts a violent chiaroscuro, elevating the scene from visceral vulnerability into a profound questioning of mortality and sacrifice."
     },
     "status": "vendido",
-    "order": 30
+    "order": 30,
+    "thumb": "/images/artworks/thumbs/artwork_030.jpg"
   },
   {
     "id": "obra-out-4",
@@ -665,13 +697,13 @@
       "es": "Pájaros de Fuego",
       "en": "Fire Birds"
     },
-    "year": 2020,
+    "year": 2010,
     "medium": {
-      "es": "Óleo sobre lienzo",
+      "es": "Acrílico sobre lienzo",
       "en": "Oil on canvas"
     },
-    "dimensions": "4096 × 3290 px",
-    "image": "/images/artworks/out_4.png",
+    "dimensions": "160 × 120 cm",
+    "image": "/images/artworks/artwork_031.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -679,7 +711,9 @@
       "en": "Dominated by fiery reds and deep shadows, this energetic abstraction suggests a mechanical or mythical flock over an architectural dusk. Within this dense weave of shapes and colors, elements bordering the organic can be glimpsed, like stylized wings or beaks in a dance of warm survival."
     },
     "status": "vendido",
-    "order": 31
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_031.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-5",
@@ -687,13 +721,13 @@
       "es": "Refugio Costero",
       "en": "Coastal Refuge"
     },
-    "year": 2019,
+    "year": 2007,
     "medium": {
       "es": "Acrílico sobre lienzo",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "4096 × 3290 px",
-    "image": "/images/artworks/out_5.png",
+    "dimensions": "200 × 160 cm",
+    "image": "/images/artworks/artwork_032.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -701,29 +735,33 @@
       "en": "A nautical abstraction that deconstructs boats, piers, and seagulls into bold angular planes. Rich Prussian blues and light blues contrast with vibrant yellows, rusty reds, and hatched details that endow the apparent spatial chaos with vitality and constant rhythm. It is a close look at the parallel life of the harbor."
     },
     "status": "vendido",
-    "order": 32
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_032.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-6",
     "title": {
-      "es": "Ciudad Oculta",
+      "es": "Mañana en la cocina",
       "en": "Hidden City"
     },
     "year": 2021,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "4096 × 4096 px",
-    "image": "/images/artworks/out_6.png",
+    "dimensions": "120 × 120 cm",
+    "image": "/images/artworks/artwork_033.jpg",
     "category": "pintura original",
     "aspect": "square",
     "description": {
-      "es": "Un lienzo sombrío pero sumamente rítmico, donde estructuras fragmentadas evocan los callejones de una urbe nocturna. Resplandores amarillos y anaranjados rompen la red densa de azules ultramar y oscuros abisales, logrando un notable equilibrio cubista que guía incesantemente al ojo.",
+      "es": "Un lienzo sombrío pero sumamente rítmico, donde estructuras fragmentadas evocan los elementos de una cocina. Resplandores amarillos y anaranjados rompen la red densa de azules ultramar y oscuros abisales, logrando un notable equilibrio cubista que guía incesantemente al ojo.",
       "en": "A somber yet highly rhythmic canvas where fragmented structures evoke the alleys of a nocturnal metropolis. Yellow and orange glows pierce the dense network of ultramarine blues and abyssal darks, achieving a remarkable cubist balance that incessantly guides the eye."
     },
-    "status": "disponible",
-    "order": 33
+    "status": "vendido",
+    "order": 2,
+    "thumb": "/images/artworks/thumbs/artwork_033.jpg",
+    "categoryOrder": 2
   },
   {
     "id": "obra-out-7",
@@ -736,8 +774,8 @@
       "es": "Acrílico sobre lienzo",
       "en": "Acrylic on canvas"
     },
-    "dimensions": "4096 × 1318 px",
-    "image": "/images/artworks/out_7.png",
+    "dimensions": "120 × 100 px",
+    "image": "/images/artworks/artwork_034.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -745,7 +783,9 @@
       "en": "A panoramic exploration of forms oscillating between the architectural and the floral. Over a vibrant light blue background flow sweeping stripes and jagged angles loaded with dark cadmium red and muted yellows, offering an expansive read fitting the painting's monumental scale."
     },
     "status": "vendido",
-    "order": 34
+    "order": 3,
+    "thumb": "/images/artworks/thumbs/artwork_034.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-8",
@@ -755,11 +795,11 @@
     },
     "year": 2016,
     "medium": {
-      "es": "Acrílico",
+      "es": "Acrílico sobre lienzo",
       "en": "Acrylic"
     },
-    "dimensions": "4096 × 1636 px",
-    "image": "/images/artworks/out_8.png",
+    "dimensions": "90 × 140 cm",
+    "image": "/images/artworks/artwork_035.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
@@ -767,28 +807,56 @@
       "en": "With an almost musical energy, thick stripes and bold curves interlace domains of pure color across the support's width. The aggressive and swift brushstrokes convey a natural momentum akin to swells or winds, creating a visual narrative that unfolds rhythmically without beginning or end."
     },
     "status": "vendido",
-    "order": 35
+    "order": 35,
+    "thumb": "/images/artworks/thumbs/artwork_035.jpg",
+    "categoryOrder": 3
   },
   {
     "id": "obra-out-9",
     "title": {
-      "es": "Bodegón Fauvista",
+      "es": "Bodegón",
       "en": "Fauvist Still Life"
     },
-    "year": 1999,
+    "year": 2003,
     "medium": {
-      "es": "Óleo sobre lienzo",
+      "es": "Acrílco",
       "en": "Oil on canvas"
     },
-    "dimensions": "4096 × 2854 px",
-    "image": "/images/artworks/out_9.png",
+    "dimensions": "70 × 100 cm",
+    "image": "/images/artworks/artwork_036.jpg",
     "category": "pintura original",
     "aspect": "landscape",
     "description": {
       "es": "Un explosivo estallido de colores complementarios redefine el clásico género del bodegón. Un jarrón azul intenso con extravagantes follajes preside una mesa exuberante en la que patillas carmesíes, frutos dorados desbordados y botellas capturan la luz de manera radiante, infundiendo a los objetos una energía vibrante y vital.",
       "en": "An explosive burst of complementary colors redefines the classic still life genre. An intense blue vase with extravagant foliage presides over a lush table where crimson watermelons, overflowing golden fruits, and bottles capture the light radiantly, infusing the objects with vibrant and vital energy."
     },
-    "status": "disponible",
-    "order": 36
+    "status": "vendido",
+    "order": 4,
+    "thumb": "/images/artworks/thumbs/artwork_036.jpg",
+    "categoryOrder": 4
+  },
+  {
+    "id": "painting_037",
+    "title": {
+      "es": "El romántico Gato mecánico",
+      "en": "The Romantic Mechanical Cat"
+    },
+    "year": 2011,
+    "medium": {
+      "es": "Acrílico sobre lienzo",
+      "en": "Acrylic on canvas"
+    },
+    "dimensions": "180 × 180 cm",
+    "image": "/images/artworks/artwork_037.png",
+    "category": "pintura original",
+    "aspect": "square",
+    "description": {
+      "es": "Sobre un fondo rojo intenso, planos fragmentados en ocres, amarillos y tonos oscuros se reúnen en torno a una figura felina. Las curvas que atraviesan la composición suavizan su estructura mecánica y dan movimiento a la escena.",
+      "en": "Against an intense red background, fragmented planes of ochre, yellow, and dark tones gather around a feline figure. Curving lines soften its mechanical structure and bring movement to the composition."
+    },
+    "order": 1,
+    "thumb": "/images/artworks/thumbs/artwork_037.jpg",
+    "categoryOrder": 1,
+    "status": "vendido"
   }
 ]

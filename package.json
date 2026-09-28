@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/image-dimensions.mjs && vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "admin": "concurrently \"node admin-server.js\" \"vite\""
   },
@@ -21,6 +21,7 @@
     "@vitejs/plugin-react": "^4.7.0",
     "concurrently": "^9.2.1",
     "express": "^5.2.1",
+    "sharp": "^0.34.5",
     "vite": "^5.4.21"
   }
 }

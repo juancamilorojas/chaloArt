@@ -1,0 +1,6 @@
+dist/
+.agents/
+.codex/
+.claude/
+admin-server.js
+add_fields.py

@@ -1,7 +1,12 @@
 import { useState, useMemo, useEffect } from 'react'
+import { Link, useLocation } from 'react-router'
 import { useLanguage } from '../context/LanguageContext'
-import { CATEGORY_OPTIONS } from '../data/constants'
+import { CATEGORY_OPTIONS, STATUS_OPTIONS } from '../data/constants'
+import { whatsappUrl } from '../data/contact'
+import ProtectedArtworkImage from '../components/ProtectedArtworkImage'
 import artworks from '../data/artworks.json'
+import sketches from '../data/sketches.json'
+import photos from '../data/photos.json'
 import './Obra.css'
 
 /**
@@ -37,11 +42,15 @@ function reorderForColumns(items, cols) {
 
 export default function Obra() {
   const { t, localized } = useLanguage()
+  const { pathname } = useLocation()
   const [hoveredId, setHoveredId] = useState(null)
   const [selectedArtwork, setSelectedArtwork] = useState(null)
   const [isZoomed, setIsZoomed] = useState(false)
   const [mousePos, setMousePos] = useState({ x: '50%', y: '50%' })
-  const [activeCategory, setActiveCategory] = useState(null) // null = "Todo"
+  const categoryPaths = ['/obra', '/obra/fotografia', '/obra/dibujos']
+  const categoryIndex = categoryPaths.indexOf(pathname.replace(/\/+$/, ''))
+  const activeCategory = CATEGORY_OPTIONS[categoryIndex < 0 ? 0 : categoryIndex]
+  const [activeStatus, setActiveStatus] = useState(null)
 
   // Track current column count to reorder items for horizontal reading
   const getColumnCount = () => {
@@ -50,22 +59,25 @@ export default function Obra() {
     if (window.innerWidth <= 960) return 2
     return 3
   }
-  const [colCount, setColCount] = useState(getColumnCount)
+  const [colCount, setColCount] = useState(3)
 
   useEffect(() => {
     const handleResize = () => setColCount(getColumnCount())
+    handleResize()
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Filter → sort by order → reorder for CSS columns left→right
+  const allWorks = useMemo(() => [...artworks, ...sketches, ...photos], [])
+
+  // Filter → sort within the category → reorder for CSS columns left→right
   const orderedArtworks = useMemo(() => {
-    const filtered = activeCategory
-      ? artworks.filter(a => a.category === activeCategory)
-      : artworks
-    const sorted = filtered.sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity))
+    const filtered = allWorks.filter(a =>
+      a.category === activeCategory && (activeStatus === null || a.status === activeStatus)
+    )
+    const sorted = filtered.sort((a, b) => (a.categoryOrder ?? a.order ?? Infinity) - (b.categoryOrder ?? b.order ?? Infinity))
     return reorderForColumns(sorted, colCount)
-  }, [colCount, activeCategory])
+  }, [colCount, activeCategory, activeStatus, allWorks])
 
   // Prevent background scrolling when modal is open
   if (typeof document !== 'undefined') {
@@ -86,60 +98,83 @@ export default function Obra() {
     setMousePos({ x: `${x}%`, y: `${y}%` })
   }
 
-  // Page title: category name or generic title
-  const pageTitle = activeCategory
-    ? (t(`obra.categories.${activeCategory}`) || activeCategory)
-    : t('obra.title')
+  const pageTitle = t(`obra.categories.${activeCategory}`) || activeCategory
+  const inquiryUrl = artwork => {
+    const message = t('obra.inquiryMessage').replace('{title}', localized(artwork.title))
+    return whatsappUrl(message)
+  }
 
   return (
     <section className="obra" id="obra-panel">
       <div className="obra__inner container">
         {/* Category Filter Tabs */}
-        <nav className="obra__filters" aria-label="Filter by category">
-          <button
-            className={`obra__filter-tab ${activeCategory === null ? 'obra__filter-tab--active' : ''}`}
-            onClick={() => setActiveCategory(null)}
-          >
-            {t('obra.all')}
-          </button>
-          {CATEGORY_OPTIONS.map(cat => (
-            <button
+        <nav className="obra__filters" aria-label={t('obra.categoryFilterLabel')}>
+          {CATEGORY_OPTIONS.map((cat, index) => (
+            <Link
               key={cat}
+              to={categoryPaths[index]}
               className={`obra__filter-tab ${activeCategory === cat ? 'obra__filter-tab--active' : ''}`}
-              onClick={() => setActiveCategory(cat)}
+              aria-current={activeCategory === cat ? 'page' : undefined}
             >
               {t(`obra.categories.${cat}`) || cat}
-            </button>
+            </Link>
           ))}
         </nav>
 
+        <div className="obra__status-filters" role="group" aria-label={t('obra.statusFilterLabel')}>
+          {[null, ...STATUS_OPTIONS].map(status => (
+            <button
+              key={status ?? 'all'}
+              type="button"
+              className={`obra__status-filter ${activeStatus === status ? 'obra__status-filter--active' : ''}`}
+              onClick={() => setActiveStatus(status)}
+              aria-pressed={activeStatus === status}
+            >
+              {status === null ? t('obra.statusFilter.all') : t(`obra.statusFilter.${status}`)}
+            </button>
+          ))}
+        </div>
+
         <h1 className="obra__title serif-italic">{pageTitle}</h1>
 
-        <div className="obra__grid">
-          {orderedArtworks.map((artwork) => (
+        {orderedArtworks.length === 0 ? (
+          <p className="obra__empty" role="status">{t('obra.noMatchingWorks')}</p>
+        ) : <div className="obra__grid">
+          {orderedArtworks.map((artwork, index) => (
             <div
               key={artwork.id}
               className={`obra__card obra__card--${artwork.aspect}`}
               onMouseEnter={() => setHoveredId(artwork.id)}
               onMouseLeave={() => setHoveredId(null)}
               onClick={() => setSelectedArtwork(artwork)}
+              onContextMenu={event => event.preventDefault()}
               id={`artwork-${artwork.id}`}
             >
-              <img
-                src={artwork.image}
-                alt={localized(artwork.title)}
+              <ProtectedArtworkImage
+                src={artwork.thumb || artwork.image}
+                alt={`${localized(artwork.title)}, ${t(`obra.categories.${artwork.category}`)} de Chalo Rojas`}
                 className="obra__card-image"
-                loading="lazy"
+                loading={index === 0 ? 'eager' : 'lazy'}
+                fetchPriority={index === 0 ? 'high' : undefined}
               />
               <div className={`obra__card-overlay ${hoveredId === artwork.id ? 'visible' : ''}`}>
                 <span className="obra__card-title serif-italic">
-                  {localized(artwork.title)}, {artwork.year}
+                  {localized(artwork.title)}{artwork.year ? `, ${artwork.year}` : ''}
                 </span>
-                <button className="obra__card-inquire" onClick={(e) => e.stopPropagation()}>{t('obra.inquire')}</button>
+                <a
+                  className="obra__card-inquire"
+                  href={inquiryUrl(artwork)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={event => event.stopPropagation()}
+                  aria-label={`${t('obra.inquire')}: ${localized(artwork.title)}`}
+                >
+                  {t('obra.inquire')}
+                </a>
               </div>
             </div>
           ))}
-        </div>
+        </div>}
       </div>
 
       {selectedArtwork && (
@@ -155,7 +190,7 @@ export default function Obra() {
                 if (!isZoomed) setMousePos({ x: '50%', y: '50%' })
               }}
             >
-              <img 
+              <ProtectedArtworkImage
                 src={selectedArtwork.image} 
                 alt={localized(selectedArtwork.title)} 
                 style={isZoomed ? { transformOrigin: `${mousePos.x} ${mousePos.y}` } : {}}
@@ -164,22 +199,42 @@ export default function Obra() {
 
             {!isZoomed && (
               <div className="obra__modal-caption">
-                <span className="serif-italic">{localized(selectedArtwork.title)}, {selectedArtwork.year}</span>
-                <br/>
-                <span className="obra__modal-medium">{localized(selectedArtwork.medium)} — {selectedArtwork.dimensions}</span>
-                
+                <span className="serif-italic">
+                  {localized(selectedArtwork.title)}
+                  {selectedArtwork.year && `, ${selectedArtwork.year}`}
+                </span>
+
+                {selectedArtwork.medium && (
+                  <>
+                    <br/>
+                    <span className="obra__modal-medium">
+                      {localized(selectedArtwork.medium)}
+                      {selectedArtwork.dimensions && ` — ${selectedArtwork.dimensions}`}
+                    </span>
+                  </>
+                )}
+
                 {selectedArtwork.description && (
                   <p className="obra__modal-desc">
                     {localized(selectedArtwork.description)}
                   </p>
                 )}
-                
+
                 {selectedArtwork.status && (
                   <div className="obra__modal-status">
                     <span className={`obra__status-dot obra__status-dot--${selectedArtwork.status}`}></span>
                     {t(`obra.status.${selectedArtwork.status}`)}
                   </div>
                 )}
+
+                <a
+                  className="obra__modal-inquire"
+                  href={inquiryUrl(selectedArtwork)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('obra.inquire')}
+                </a>
               </div>
             )}
           </div>
