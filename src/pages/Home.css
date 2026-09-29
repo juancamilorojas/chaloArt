@@ -14,7 +14,8 @@
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - var(--header-height));
+  height: calc(100svh - var(--header-height));
   min-height: 600px;
   overflow: hidden;
 }
@@ -51,7 +52,7 @@
   max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
-  padding-bottom: clamp(48px, 8vh, 100px);
+  padding-bottom: clamp(72px, 12vh, 128px);
   animation: heroFadeUp 1s ease-out 0.3s both;
 }
 
