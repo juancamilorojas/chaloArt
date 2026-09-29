@@ -383,19 +383,31 @@
 }
 
 @media (max-width: 1024px) {
+  .obra__modal {
+    align-items: flex-start;
+  }
   .obra__modal-content {
-    flex-direction: column-reverse;
+    height: auto;
+    min-height: 100%;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: var(--space-lg);
+    padding-top: var(--space-2xl);
+  }
+  .obra__modal-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    flex-shrink: 0;
   }
   .obra__modal-caption {
     width: 100%;
     text-align: center;
     padding-bottom: 0;
-    margin-top: var(--space-lg);
   }
   .obra__modal-image-wrapper img {
-    max-height: 75vh;
+    max-height: 70dvh;
     max-width: 100%;
   }
 }
@@ -405,10 +417,9 @@
     padding: var(--space-lg);
   }
   .obra__modal-image-wrapper img {
-    max-height: 70vh;
+    max-height: 65dvh;
   }
   .obra__modal-caption {
-    margin-top: var(--space-md);
     font-size: var(--fs-body-lg);
   }
 }
